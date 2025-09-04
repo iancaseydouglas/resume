@@ -1,4 +1,3 @@
-# Ian Douglas' Resume Repository
 
 ## Resume Files
 - **[Ian-Casey-Douglas-Resume.html](./Ian-Casey-Douglas-Resume.html)**
