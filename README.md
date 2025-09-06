@@ -1,4 +1,4 @@
-## Ian Casey Douglas — Resume & Documents
+## Ian Casey Douglas
 
 ---
 
