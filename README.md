@@ -2,9 +2,9 @@
 
 ---
 
-## 📁 Resume Files
+## 📁 Resume
 
-- 🌐 **Live Preview (HTML):** [View in Browser](https://htmlpreview.github.io/?https://github.com/iancaseydouglas/resume/blob/main/Ian-Casey-Douglas-Resume.html)
+- 🌐 **View:** [View in Browser](https://htmlpreview.github.io/?https://github.com/iancaseydouglas/resume/blob/main/Ian-Casey-Douglas-Resume.html)
 - </> **HTML File:** [Ian-Casey-Douglas-Resume.html](./Ian-Casey-Douglas-Resume.html)
 - 📄 **PDF File:** [Ian-Casey-Douglas-Resume.pdf](./Ian-Casey-Douglas-Resume.pdf)
 
