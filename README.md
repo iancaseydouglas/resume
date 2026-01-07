@@ -4,7 +4,7 @@
 
 ## 📁 Resume
 
-- 🌐 **View:** [View in Browser](https://htmlpreview.github.io/?https://github.com/iancaseydouglas/resume/blob/main/Ian-Casey-Douglas-Resume.html)
+- 🌐 **View:** [View in Browser](https://rawcdn.githack.com/iancaseydouglas/resume/refs/heads/main/Ian-Casey-Douglas-Resume.html)
 - </> **HTML File:** [Ian-Casey-Douglas-Resume.html](./Ian-Casey-Douglas-Resume.html)
 - 📄 **PDF File:** [Ian-Casey-Douglas-Resume.pdf](./Ian-Douglas-Resume.pdf)
 
