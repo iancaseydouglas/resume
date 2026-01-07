@@ -1,323 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ian Douglas - Resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <style>
-        * {
-            font-family: 'Inter Tight', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 25px 20px;
-            line-height: 1.4;
-            color: #333;
-            font-size: 15px;
-        }
-        
-        h1 {
-            font-size: 2.2em;
-            font-weight: 700;
-            margin-bottom: 0.15em;
-            color: #000;
-        }
-        
-        .subtitle {
-            font-size: 1.05em;
-            font-weight: 600;
-            color: #666;
-            margin-bottom: 0.35em;
-        }
-        
-        .contact {
-            font-size: 0.95em;
-            color: #666;
-            margin-bottom: 1.5em;
-        }
-        
-        h2 {
-            font-size: 1.25em;
-            font-weight: 600;
-            margin-top: 1.5em;
-            margin-bottom: 0.7em;
-            color: #000;
-            border-bottom: 1.5px solid #eee;
-            padding-bottom: 0.2em;
-        }
-        
-        .job {
-            margin-bottom: 1.1em;
-        }
-        
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 0.15em;
-        }
-        
-        .company {
-            font-weight: 600;
-            font-size: 1.05em;
-            color: #000;
-        }
-        
-        .date {
-            font-weight: 500;
-            color: #666;
-            font-size: 0.9em;
-        }
-        
-        .title {
-            font-weight: 500;
-            color: #444;
-            margin-bottom: 0.35em;
-        }
-        
-        ul {
-            margin-left: 1.1em;
-            margin-bottom: 0.7em;
-        }
-        
-        li {
-            margin-bottom: 0.25em;
-        }
-        
-        .skills {
-            line-height: 1.6;
-        }
-        
-                    @media print {
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>IAN DOUGLAS</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
             body {
-                padding: 15px;
-                font-size: 15px;
-                max-width: none;
-                margin: 0;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
             }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="ian-douglas">IAN DOUGLAS</h1>
+<p><strong>SECURE PLATFORM ENGINEERING | EVERYTHING-AS-CODE</strong></p>
+<p>COLORADO, USA | 303-335-9358 | <a href="mailto:iancaseydouglas@gmail.com">iancaseydouglas@gmail.com</a></p>
+<p><em>Delivering scalable, secure solutions that transform business strategy into future forward architecture-as-code, automated with just enough human in the loop.</em></p>
+<h2 id="experience">EXPERIENCE</h2>
+<h3 id="kings-mountain-security"><strong>Kings Mountain Security</strong></h3>
+<p><strong>Security Architect &amp; Staff Engineer</strong> | <em>January 2025 - Present</em></p>
+<ul>
+<li>Co-founded a zero-trust specialized security consultancy based in Palo Alto</li>
+<li>Devised core business strategy to deliver 'Zero Trust Capability Packages' to SMBs via tactical engagements within weekly timeframes and quarterly budgets</li>
+<li>Developed a suite of progressive Security-as-Code modules to automate DoD Zero Trust compliance</li>
+<li>Implemented container-based CI/CD pipelines for Astro-based web site</li>
+</ul>
+<h3 id="flowdelta-trading"><strong>FlowDelta Trading</strong></h3>
+<p><strong>Software Engineer</strong> | <em>March 2025 - Present</em></p>
+<ul>
+<li>Developed a multi-horizon, medium-frequency (MFT) strategy analysis platform using Python, Pandas, and VectorBT Pro</li>
+<li>Validated strategy robustness by generating probabilistic distributions of performance through Monte Carlo simulations on synthetic time-series data that models volatility-clustering</li>
+<li>Collaborated with traders to transform trading concepts into testable, automated trading systems</li>
+</ul>
+<h3 id="zagtech"><strong>ZagTech</strong></h3>
+<p><strong>Senior Platform Engineer</strong> | <em>Apr 2024 - Dec 2024</em></p>
+<ul>
+<li><strong>Acquisition Transition:</strong> Facilitated architectural handover during the company's acquisition by a national MSP; declined retention offer to launch Kings Mountain Security</li>
+<li>Architected and authored IaC code to deliver Azure Kubernetes (AKS) and VM Scale Sets (VMSS) as modular service stacks</li>
+<li>Standardized the Architecture Team's delivery model, focusing on Azure IaC and scalable Kubernetes patterns</li>
+<li>Increased deployment velocity and reduced risk by implementing GitOps workflows and custom tooling in Go, Python, and Terraform</li>
+</ul>
+<h3 id="invitae-biosciences"><strong>Invitae Biosciences</strong></h3>
+<p><strong>Senior Platform Engineer</strong> | <em>Jul 2023 - Apr 2024</em></p>
+<ul>
+<li><strong>Corporate Restructuring:</strong> Tenure concluded due to corporate insolvency following adverse IP litigation regarding core technology</li>
+<li>Engineered platform services for genetics researchers and medical scientists, specializing in Kubernetes, Flux CD, and container builds</li>
+<li>Executed zero-downtime Kubernetes cluster upgrades using Jenkins pipelines, Terraform, Terragrunt, and Flux</li>
+<li>Designed and deployed a secrets-management solution using SOPS, AWS KMS, and Shamir Sharding</li>
+<li>Developed Python CLI tooling to audit Pod Security configurations and mechanize the migration from PSPs</li>
+</ul>
+<h3 id="pearson"><strong>Pearson</strong></h3>
+<p><strong>Senior Cloud Platforms Engineer</strong> | <em>Sep 2019 - Aug 2021</em></p>
+<ul>
+<li>Operated the Internal Developer Platform (IDP), managing 'self-hosted' Kubernetes clusters on AWS EC2 in a 'Platform-as-Product' GitOps model</li>
+<li>Extended the platform codebase using Terraform, Terragrunt, Golang, Helm, Ansible, Python, and Bash</li>
+<li>Engineered a scalable log aggregation solution leveraging Fluentd, Python, AWS Lambda, and Elasticsearch</li>
+<li>Redesigned the EKS cluster lifecycle module to modernize the underlying container orchestration strategy</li>
+</ul>
+<h3 id="stanford-university"><strong>Stanford University</strong></h3>
+<p><strong>DevOps Engineer | Security Architect</strong> | <em>Dec 2015 - Sep 2019</em></p>
+<h4 id="cloud-engineering-2017-2019"><strong>Cloud Engineering</strong> (2017-2019)</h4>
+<ul>
+<li>Recruited to Stanford's Cloud Engineering team to help accelerate a cloud transformation strategy for core infrastructure</li>
+<li>Collaborated with core engineering and security teams to containerize the Identity &amp; Access Management (IAM) stack into microservices running on self-hosted Kubernetes clusters</li>
+<li>Managed Vault clusters as part of a three-person team, providing multi-tenant secrets storage,  PKI, and authentication proxies</li>
+</ul>
+<h4 id="core-infrastructure-2015-2017"><strong>Core Infrastructure</strong> (2015-2017)</h4>
+<ul>
+<li>Developed reference implementation of isolated cloud-resident Active Directory mesh, enabling secure domain services over IPSEC and IPv6; this work led to recruitment to Cloud team</li>
+<li>Coordinated a university-wide infrastructure hardening initiative, aligning technical implementers across diverse IT units to secure critical assets</li>
+<li>Partnered with security colleagues to deploy and tune machine-learning-based event anomaly and threat detection systems</li>
+</ul>
+<h3 id="marvel-heroes"><strong>Marvel Heroes</strong></h3>
+<p><strong>DevOps Engineer</strong> | <em>Jun 2014 - Dec 2015</em></p>
+<ul>
+<li>Engineered DevOps solutions for the flagship game of a $250M startup, supporting 40k+ Daily Active Users (DAU)</li>
+<li>Developed a PowerShell / SQL module to mechanize database schema changes, critical to weekly production releases</li>
+<li>Rewrote Cluster operations tools from Python to PowerShell, reducing cluster drain times from 6 minutes to 25 seconds</li>
+<li>Authored Puppet modules for the automated provisioning of a 16-node Elasticsearch cluster</li>
+</ul>
+<h3 id="two-sigma"><strong>Two Sigma</strong></h3>
+<p><strong>Systems Engineer</strong> | <em>May 2012 - Jun 2014</em></p>
+<ul>
+<li>Implemented a machine deployment service spanning 3 datacenters and multiple distribution points for a Top-3 quantitative hedge fund</li>
+<li>Automated the image build, deployment, and configuration of high-performance bare-metal servers and database systems</li>
+</ul>
+<h3 id="columbia-university"><strong>Columbia University</strong></h3>
+<p><strong>Systems Engineer</strong> | <em>Jun 2010 - May 2012</em></p>
+<ul>
+<li>Administered ESX, Storage, VMs, and bare metal infrastructure supporting Columbia's 22-site library system</li>
+</ul>
+<hr>
+<h2 id="skills">SKILLS</h2>
+<p><strong>Cloud:</strong> Azure | AWS | GCP | VMware | VM Scale Sets | BareMetal
+<strong>Languages:</strong> Go | Python | Bash | PowerShell | SQL | Wolfram |
+<strong>Orchestration:</strong> GKE | EKS | AKS | Self-Hosted Kubernetes | Docker |
+<strong>IaC:</strong> Terraform | Terragrunt | Ansible | Puppet | Packer | Helm |
+<strong>CI/CD:</strong> Jenkins | GitLab | GitHub | Argo CD | Flux CD | GitOps
+<strong>Security:</strong> HashiCorp Vault | Vault PKI | SOPS | Azure/AWS KMS | Azure/AWS IAM |Zero Trust | Kerberos | Active Directory | Entra ID
+<strong>Database:</strong> PostgreSQL | MongoDB | CosmosDB | MS SQL | Elasticsearch</p>
+<hr>
+<h2 id="education">EDUCATION</h2>
+<p><strong>The University of Denver</strong></p>
+<ul>
+<li><strong>Bachelor's Degree:</strong> Mathematics &amp; Philosophy, Double Major</li>
+</ul>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             
-            h1 {
-                font-size: 2em;
-                margin-bottom: 0.1em;
-            }
-            
-            .subtitle {
-                margin-bottom: 0.25em;
-            }
-            
-            .contact {
-                margin-bottom: 1.2em;
-            }
-            
-            h2 {
-                margin-top: 1.2em;
-                margin-bottom: 0.5em;
-                font-size: 1.15em;
-                page-break-after: avoid;
-            }
-            
-            .job {
-                margin-bottom: 0.8em;
-                page-break-inside: avoid;
-            }
-            
-            .job-header {
-                margin-bottom: 0.1em;
-            }
-            
-            .title {
-                margin-bottom: 0.25em;
-            }
-            
-            ul {
-                margin-bottom: 0.5em;
-                margin-left: 1em;
-            }
-            
-            li {
-                margin-bottom: 0.15em;
-            }
-            
-            .skills {
-                line-height: 1.5;
-            }
-        }
-    </style>
-</head>
-<body>
-    <h1>IAN DOUGLAS</h1>
-    <div class="subtitle"> SECURE PLATFORM ENGINEERING | EVERYTHING-AS-CODE</div>
-    <div class="contact">COLORADO, USA | 303-335-9358 | iancaseydouglas@gmail.com</div>
-
-    <h2>EXPERIENCE</h2>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Kings Mountain Security</div>
-            <div class="date">January 2025 – Present</div>
-        </div>
-        <div class="title">Security Architect & Founder</div>
-        <ul>
-            <li>Co-founded this zero-trust specialized security consultancy and serves as staff engineer</li>
-            <li>Developed a comprehensive suite of security-as-code packages for achieving DoD / NIST Zero Trust architecture </li>
-            <li>Implemented container-based CI/CD pipeline to automate the release and deployment of an Astro-based website</li>
-        </ul>
-    </div>
-
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">FlowDelta Trading</div>
-            <div class="date">March 2025 – Present</div>
-        </div>
-        <div class="title">Software Engineer </div>
-  <ul>
-            <li>Building comprehensive strategy analysis platform with Python and VectorBT </li>
-            <li>Implemented a robust Monte Carlo analysis framework for complete strategy performance analysis</li>
-            <li>Collaborates closely with traders to transform strategy concepts into testable algorithms and automated trading systems</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">ZagTech</div>
-            <div class="date">Apr 2024 - Dec 2024 </div>
-        </div>
-        <div class="title">Senior Platform Engineer</div>
-        <ul>
-            <li>Platform Engineer for the Architecture Team at this MSP, focusing on Azure IAC and Kubernetes.</li>
-            <li>Architected and authored IAC code for delivering Azure Kubernetes (AKS) and VM Scale Set (VMSS) Clusters as modular service-stacks, for clients engaged in cloud transformation.</li>
-            <li>Delivered automation capabilities using both GitOps and CI/CD pipelines, as well as custom tooling using Go, Python, PowerShell, Bash, and Terraform, increasing velocity while reducing risk.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Invitae Biosciences</div>
-            <div class="date">Jul 2023 – Apr 2024</div>
-        </div>
-        <div class="title">Senior Platform Engineer</div>
-        <ul>
-            <li>Delivered platform services to genetics researchers, medical scientists, and software developers at this San Francisco Biotech, as part of a core team specializing in Kubernetes, Flux CD, and container builds.</li>
-            <li>Performed regular Kubernetes cluster upgrades using Jenkins pipelines, Terraform, Terragrunt, and Flux.</li>
-            <li>Implemented a secrets-management solution using SOPS, AWS KMS, and Shamir Sharding.</li>
-            <li>Developed CLI tooling in Python to audit Pod Security configurations and mechanize PSP migration.</li>
-        </ul>
-    </div>
-
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Pearson</div>
-            <div class="date">Sep 2019 - Aug 2021</div>
-        </div>
-        <div class="title">Senior Cloud Platforms Engineer</div>
-        <ul>
-            <li>Delivered Kubernetes and diverse cloud services to software teams in the US, UK, and Asia while serving as a Senior Platform Engineer for Pearson's Cloud Engineering team.</li>
-            <li>Operated the company's Internal Developer Platform, comprising 'self-hosted' Kubernetes clusters on AWS EC2, deployed continuously in a 'Platform as product' GitOps model with Gitlab and Argo CD.</li>
-            <li>Extended the codebase using Terraform, Terragrunt, Golang, Helm, Ansible, Python, and Bash.</li>
-            <li>Implemented a log aggregation solution with Fluentd, Python, AWS Lambda, & Elasticsearch.</li>
-            <li>Coded components of an EKS cluster lifecycle module as part of a re-design to use AWS EKS.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Stanford University</div>
-            <div class="date">Jun 2017 - Sep 2019</div>
-        </div>
-        <div class="title">DevOps Engineer</div>
-        <ul>
-            <li>Provided solutions leveraging cloud services and Kubernetes to teams across the University while serving as a DevOps Engineer for Stanford IT's foundational cloud engineering team.</li>
-            <li>Served as one of the technical leads on a major project to re-architect the University's Identity & Access Management stack as Kubernetes services, as part of a multiyear cloud transformation initiative.</li>
-            <li>Operated Vault clusters providing multi-tenant secrets store, automated PKI, authentication proxy, and secrets backends for Kubernetes clusters as part of a three-person team.</li>
-            <li>Ran self-hosted Kubernetes clusters on AWS EC2 / GKE as part of 3-person team</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Stanford University</div>
-            <div class="date">Dec 2015 - Jun 2017</div>
-        </div>
-        <div class="title">Infrastructure Security Architect</div>
-        <ul>
-            <li>Delivered the architecture and codebase for an isolated domain deployment of Cloud-resident Active Directory, enabling Stanford to serve AD securely over IPv6 internet.</li>
-            <li>Collaborated with colleagues to deploy and tune ML-based event anomaly and threat detection systems.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Marvel Heroes</div>
-            <div class="date">Jun 2014 - Dec 2015</div>
-        </div>
-        <div class="title">DevOps Engineer</div>
-        <ul>
-            <li>Provided DevOps engineering to Marvel Heroes, the flagship game of a $250M startup with 40000 DAU.</li>
-            <li>Developed a module to mechanize complex database changes critical to a weekly production release.</li>
-            <li>Contributed to PowerShell modules orchestrating Game Cluster lifecycle operations.</li>
-            <li>Rewrote Python tools using PowerShell, reducing cluster drain from 6 minutes to 25 seconds.</li>
-            <li>Authored a Puppet module for installing and configuring a 16-node Elasticsearch cluster.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Two Sigma</div>
-            <div class="date">May 2012 - Jun 2014</div>
-        </div>
-        <div class="title">Systems Engineer</div>
-        <ul>
-            <li>Implemented a machine deployment and configuration service spanning 3 datacenters and multiple distribution points while serving as Systems Engineer for a Top-3 quantitative hedge fund.</li>
-            <li>Automated the image build, deployment, and ongoing configuration of high-performance bare-metal servers, including database servers and other critical systems.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">Columbia University</div>
-            <div class="date">Jun 2010 - May 2012</div>
-        </div>
-        <div class="title">Systems Engineer</div>
-        <ul>
-            <li>Ran ESX, Storage, VMs, and bare metal in support of Columbia's sprawling 22-site library system.</li>
-        </ul>
-    </div>
-
-    <h2>SKILLS</h2>
-
-    <div class="skills">
-<strong>Cloud:</strong> Azure, AWS, GKE<br>
-<strong>Languages:</strong> Golang, Python, Bash, PowerShell, SQL<br>
-<strong>Containers/Orchestration:</strong> Kubernetes, Docker, EKS, AKS, Helm<br>
-<strong>IaC/Automation:</strong> Terraform, Terragrunt, Ansible, Puppet, Packer<br>
-<strong>CI/CD/GitOps:</strong> Jenkins, GitLab, Argo CD, Flux CD, GitOps<br>
-<strong>Security:</strong> HashiCorp Vault, Vault PKI, PKI, SOPS, AWS KMS, Zero Trust<br>
-<strong>Identity:</strong> Active Directory, Azure Entra ID, IAM<br>
-<strong>Databases:</strong> PostgreSQL, MongoDB, Elasticsearch<br>
-<strong>Infrastructure:</strong> VMware ESX, VM Scale Sets, Bare Metal<br>
-<strong>Specialized:</strong> VectorBT, Monte Carlo Analysis, Astro, Fluentd
-    </div>
-
- <h2>EDUCATION</h2>
-
-    <div class="job">
-        <div class="job-header">
-            <div class="company">The University of Denver</div>
-            <div class="date"></div>
-        </div>
-        <div class="title">Bachelor's Degree<br>Mathematics & Philosophy, Double Major</div>
-    </div>
-
-
-</body>
-</html>
+        </body>
+        </html>
