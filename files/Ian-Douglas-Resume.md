@@ -4,7 +4,7 @@
 
 COLORADO, USA | 303-335-9358 | iancaseydouglas@gmail.com
 
-*Delivering scalable, secure solutions that transform business strategy into adaptive, automated architecture with just enough human-in-the-loop.*
+*Delivering scalable secure solutions that transform business strategy into adaptive, automated architecture with just enough human-in-the-loop.*
 
 ## EXPERIENCE
 

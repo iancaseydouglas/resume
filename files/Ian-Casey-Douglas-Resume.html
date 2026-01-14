@@ -1,239 +1,469 @@
 <!DOCTYPE html>
-        <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>IAN DOUGLAS</title>
-            <style>
-/* From extension vscode.github */
+<html>
+
+<head>
+    <title>Ian-Douglas-Resume.md</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-.vscode-dark img[src$=\#gh-light-mode-only],
-.vscode-light img[src$=\#gh-dark-mode-only],
-.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
-.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
-	display: none;
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+html,footer,header{
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
 }
 
 </style>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+
 <style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-                font-size: 14px;
-                line-height: 1.6;
-            }
-        </style>
-        <style>
-.task-list-item {
-    list-style-type: none;
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
 }
 
-.task-list-item-checkbox {
-    margin-left: -20px;
-    vertical-align: middle;
-    pointer-events: none;
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
 }
 </style>
+
 <style>
-:root {
-  --color-note: #0969da;
-  --color-tip: #1a7f37;
-  --color-warning: #9a6700;
-  --color-severe: #bc4c00;
-  --color-caution: #d1242f;
-  --color-important: #8250df;
+/*
+ * Custom MD PDF CSS
+ */
+html,footer,header{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+
+ }
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
 }
 
 </style>
-<style>
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-note: #2f81f7;
-    --color-tip: #3fb950;
-    --color-warning: #d29922;
-    --color-severe: #db6d28;
-    --color-caution: #f85149;
-    --color-important: #a371f7;
-  }
-}
+<link rel="stylesheet" href="file:///home/iando/src/resume/R%3A%5C2.Travail%5C1.Enseignement%5CCours%5C_1.Outils%5C2.Developpement%5C1.SCSS%5Cmain.css" type="text/css"><link rel="stylesheet" href="file:///home/iando/src/resume/D%3A%5Crdaros%5CCours%5C_1.Outils%5C2.Developpement%5C1.SCSS%5Cmain.css" type="text/css">
+</head>
 
-</style>
-<style>
-.markdown-alert {
-  padding: 0.5rem 1rem;
-  margin-bottom: 16px;
-  color: inherit;
-  border-left: .25em solid #888;
-}
-
-.markdown-alert>:first-child {
-  margin-top: 0
-}
-
-.markdown-alert>:last-child {
-  margin-bottom: 0
-}
-
-.markdown-alert .markdown-alert-title {
-  display: flex;
-  font-weight: 500;
-  align-items: center;
-  line-height: 1
-}
-
-.markdown-alert .markdown-alert-title .octicon {
-  margin-right: 0.5rem;
-  display: inline-block;
-  overflow: visible !important;
-  vertical-align: text-bottom;
-  fill: currentColor;
-}
-
-.markdown-alert.markdown-alert-note {
-  border-left-color: var(--color-note);
-}
-
-.markdown-alert.markdown-alert-note .markdown-alert-title {
-  color: var(--color-note);
-}
-
-.markdown-alert.markdown-alert-important {
-  border-left-color: var(--color-important);
-}
-
-.markdown-alert.markdown-alert-important .markdown-alert-title {
-  color: var(--color-important);
-}
-
-.markdown-alert.markdown-alert-warning {
-  border-left-color: var(--color-warning);
-}
-
-.markdown-alert.markdown-alert-warning .markdown-alert-title {
-  color: var(--color-warning);
-}
-
-.markdown-alert.markdown-alert-tip {
-  border-left-color: var(--color-tip);
-}
-
-.markdown-alert.markdown-alert-tip .markdown-alert-title {
-  color: var(--color-tip);
-}
-
-.markdown-alert.markdown-alert-caution {
-  border-left-color: var(--color-caution);
-}
-
-.markdown-alert.markdown-alert-caution .markdown-alert-title {
-  color: var(--color-caution);
-}
-
-</style>
-        
-        </head>
-        <body class="vscode-body vscode-light">
-            <h1 id="ian-douglas">IAN DOUGLAS</h1>
+<body>
+    <h1 id="ian-douglas">IAN DOUGLAS</h1>
 <p><strong>SECURE PLATFORM ENGINEERING | EVERYTHING-AS-CODE</strong></p>
-<p>COLORADO, USA | 303-335-9358 | <a href="mailto:iancaseydouglas@gmail.com">iancaseydouglas@gmail.com</a></p>
-<p><em>Delivering scalable, secure solutions that transform business strategy into future forward architecture-as-code, automated with just enough human in the loop.</em></p>
+<p>COLORADO, USA | 303-335-9358 | iancaseydouglas@gmail.com</p>
+<p><em>Delivering scalable secure solutions that transform business strategy into adaptive, automated architecture with just enough human-in-the-loop.</em></p>
 <h2 id="experience">EXPERIENCE</h2>
 <h3 id="kings-mountain-security"><strong>Kings Mountain Security</strong></h3>
-<p><strong>Security Architect &amp; Staff Engineer</strong> | <em>January 2025 - Present</em></p>
+<h4 id="security-architect--staff-engineer--january-2025-%E2%80%93-present">Security Architect &amp; Staff Engineer | January 2025 – Present</h4>
 <ul>
-<li>Co-founded a zero-trust specialized security consultancy based in Palo Alto</li>
-<li>Devised core business strategy to deliver 'Zero Trust Capability Packages' to SMBs via tactical engagements within weekly timeframes and quarterly budgets</li>
-<li>Developed a suite of progressive Security-as-Code modules to automate DoD Zero Trust compliance</li>
-<li>Implemented container-based CI/CD pipelines for Astro-based web site</li>
+<li><strong>Strategic Advisory</strong>: Co-founded a zero-trust specialized security consultancy based in Palo Alto delivering 'Zero Trust Capability Packages' via tactical, high-impact engagements.</li>
+<li><strong>Compliance Automation</strong>: Developing progressive 'Security-as-Code' modules to automate DoD Zero Trust compliance within modern infrastructure lifecycles.</li>
+<li><strong>Platform Delivery</strong>: Implementing container-based CI/CD pipelines for high-integrity, secure web deployments.</li>
+<li><strong>Stack</strong>: Zero Trust Frameworks, Security-as-Code, Containerization, CI/CD, Astro.</li>
 </ul>
 <h3 id="flowdelta-trading"><strong>FlowDelta Trading</strong></h3>
-<p><strong>Software Engineer</strong> | <em>March 2025 - Present</em></p>
+<h4 id="software-engineer--march-2025-%E2%80%93-present">Software Engineer | March 2025 – Present</h4>
 <ul>
-<li>Developed a multi-horizon, medium-frequency (MFT) strategy analysis platform using Python, Pandas, and VectorBT Pro</li>
-<li>Validated strategy robustness by generating probabilistic distributions of performance through Monte Carlo simulations on synthetic time-series data that models volatility-clustering</li>
-<li>Collaborated with traders to transform trading concepts into testable, automated trading systems</li>
+<li><strong>Quantitative Strategy</strong>: Developing a multi-horizon, medium-frequency (MFT) strategy analysis platform using Python, Pandas, and VectorBT Pro.</li>
+<li><strong>Probabilistic Modeling</strong>: Validating strategy robustness via Monte Carlo simulations on synthetic time-series data to model volatility-clustering.</li>
+<li><strong>Systems Engineering</strong>: Partnering with traders to transform complex financial concepts into testable, automated trading systems.</li>
+<li><strong>Stack</strong>: Python, Pandas, VectorBT Pro, Monte Carlo Simulations, Synthetic Time-Series modeling.</li>
 </ul>
 <h3 id="zagtech"><strong>ZagTech</strong></h3>
-<p><strong>Senior Platform Engineer</strong> | <em>Apr 2024 - Dec 2024</em></p>
+<h4 id="senior-platform-engineer--april-2024-%E2%80%93-december-2024">Senior Platform Engineer | April 2024 – December 2024</h4>
 <ul>
-<li><strong>Acquisition Transition:</strong> Facilitated architectural handover during the company's acquisition by a national MSP; declined retention offer to launch Kings Mountain Security</li>
-<li>Architected and authored IaC code to deliver Azure Kubernetes (AKS) and VM Scale Sets (VMSS) as modular service stacks</li>
-<li>Standardized the Architecture Team's delivery model, focusing on Azure IaC and scalable Kubernetes patterns</li>
-<li>Increased deployment velocity and reduced risk by implementing GitOps workflows and custom tooling in Go, Python, and Terraform</li>
+<li><strong>Acquisition &amp; Transition</strong>: Facilitated the technical architectural handover during acquisition by a national MSP; declined a retention offer to launch Kings Mountain Security.</li>
+<li><strong>Modular Infrastructure</strong>: Architected and authored Azure IaC to deliver Azure Kubernetes (AKS) and VM Scale Sets (VMSS) as scalable, modular service stacks.</li>
+<li><strong>Developer Velocity</strong>: Increased deployment speed and reduced operational risk by implementing GitOps workflows and custom tooling in Go and Python.</li>
+<li><strong>Stack</strong>: Azure (AKS, VMSS), Terraform, Go, Python, GitOps.</li>
 </ul>
 <h3 id="invitae-biosciences"><strong>Invitae Biosciences</strong></h3>
-<p><strong>Senior Platform Engineer</strong> | <em>Jul 2023 - Apr 2024</em></p>
+<h4 id="senior-platform-engineer--july-2023-%E2%80%93-april-2024">Senior Platform Engineer | July 2023 – April 2024</h4>
 <ul>
-<li><strong>Corporate Restructuring:</strong> Tenure concluded due to corporate insolvency following adverse IP litigation regarding core technology</li>
-<li>Engineered platform services for genetics researchers and medical scientists, specializing in Kubernetes, Flux CD, and container builds</li>
-<li>Executed zero-downtime Kubernetes cluster upgrades using Jenkins pipelines, Terraform, Terragrunt, and Flux</li>
-<li>Designed and deployed a secrets-management solution using SOPS, AWS KMS, and Shamir Sharding</li>
-<li>Developed Python CLI tooling to audit Pod Security configurations and mechanize the migration from PSPs</li>
+<li><strong>Corporate Restructuring</strong>: Tenure concluded due to corporate insolvency following adverse IP litigation regarding core technology.</li>
+<li><strong>Production Hardening</strong>: Developed <strong>Cluster Security Audit</strong> tooling to perform Day Zero hardening and CIS compliance for petabyte-scale genomics data flows.</li>
+<li><strong>Resilient Operations</strong>: Executed zero-downtime Kubernetes upgrades and stateful workload migrations using Jenkins, Terraform, Terragrunt, and Flux CD.</li>
+<li><strong>Secrets Orchestration</strong>: Designed an enterprise secrets-management solution leveraging SOPS, AWS KMS, and Shamir Sharding</li>
+<li><strong>Stack</strong> Kubernetes, Flux CD, Terraform, Terragrunt, SOPS, AWS KMS, Python.</li>
 </ul>
 <h3 id="pearson"><strong>Pearson</strong></h3>
-<p><strong>Senior Cloud Platforms Engineer</strong> | <em>Sep 2019 - Aug 2021</em></p>
+<h4 id="senior-cloud-platforms-engineer--september-2019-%E2%80%93-august-2021">Senior Cloud Platforms Engineer | September 2019 – August 2021</h4>
 <ul>
-<li>Operated the Internal Developer Platform (IDP), managing 'self-hosted' Kubernetes clusters on AWS EC2 in a 'Platform-as-Product' GitOps model</li>
-<li>Extended the platform codebase using Terraform, Terragrunt, Golang, Helm, Ansible, Python, and Bash</li>
-<li>Engineered a scalable log aggregation solution leveraging Fluentd, Python, AWS Lambda, and Elasticsearch</li>
-<li>Redesigned the EKS cluster lifecycle module to modernize the underlying container orchestration strategy</li>
+<li><strong>Self-Hosted Kubernetes</strong>: Operated Internal Developer Platforms (IDP) managing <strong>self-hosted Kubernetes clusters on AWS EC2</strong> via a GitOps model.</li>
+<li><strong>Distributed Observability</strong>: Engineered a scalable log aggregation solution leveraging Fluentd, Python, AWS Lambda, and Elasticsearch.</li>
+<li><strong>Infrastructure Lifecycle</strong>: Redesigned EKS cluster modules to modernize container orchestration strategies and reduce operational toil.</li>
+<li><strong>Stack</strong> Self-hosted K8s, AWS (EC2, EKS, Lambda), Terraform, Terragrunt, Go, Ansible, Python, Fluentd, Elasticsearch.</li>
 </ul>
 <h3 id="stanford-university"><strong>Stanford University</strong></h3>
-<p><strong>DevOps Engineer | Security Architect</strong> | <em>Dec 2015 - Sep 2019</em></p>
-<h4 id="cloud-engineering-2017-2019"><strong>Cloud Engineering</strong> (2017-2019)</h4>
+<h4 id="devops-engineer--security-architect--december-2015-%E2%80%93-september-2019">DevOps Engineer | Security Architect | December 2015 – September 2019</h4>
+<p><strong>Cloud Engineering &amp; Transformation (2017–2019)</strong></p>
 <ul>
-<li>Recruited to Stanford's Cloud Engineering team to help accelerate a cloud transformation strategy for core infrastructure</li>
-<li>Collaborated with core engineering and security teams to containerize the Identity &amp; Access Management (IAM) stack into microservices running on self-hosted Kubernetes clusters</li>
-<li>Managed Vault clusters as part of a three-person team, providing multi-tenant secrets storage,  PKI, and authentication proxies</li>
+<li><strong>Collaborative Identity Modernization</strong>: Partnered with IAM teams to architect transition of Identity services (LDAP/Kerberos) to <strong>self-hosted Kubernetes</strong>.</li>
+<li><strong>Infrastructure Enablement</strong>: Delivered the foundational &quot;vanguard&quot; Identity stack required by all subsequent core infrastructure teams during the cloud transformation initiative.</li>
+<li><strong>Stateful Orchestration</strong>: Engineered replication logic, automated DB restoration, and CI/CD pipelines for multi-master LDAP and Kerberos services.</li>
+<li><strong>Secrets Management</strong>: Managed Vault clusters as part of a three-person team, providing multi-tenant PKI, authentication proxies, and encrypted storage.</li>
 </ul>
-<h4 id="core-infrastructure-2015-2017"><strong>Core Infrastructure</strong> (2015-2017)</h4>
+<p><strong>Core Infrastructure (2015–2017)</strong></p>
 <ul>
-<li>Developed reference implementation of isolated cloud-resident Active Directory mesh, enabling secure domain services over IPSEC and IPv6; this work led to recruitment to Cloud team</li>
-<li>Coordinated a university-wide infrastructure hardening initiative, aligning technical implementers across diverse IT units to secure critical assets</li>
-<li>Partnered with security colleagues to deploy and tune machine-learning-based event anomaly and threat detection systems</li>
+<li><strong>Zero-Trust Architecture</strong>: Authored a reference implementation for cloud-resident Active Directory via IPv6 / IPsec mesh</li>
+<li><strong>Internal Recruitment</strong>: This foundational architecture served as a catalyst for recruitment to the central Cloud Engineering team.</li>
+<li><strong>Alignment &amp; Hardening</strong>: Coordinated a university-wide hardening initiative, aligning technical implementers across diverse IT units to secure critical assets.</li>
+<li><strong>Anomalous Threat Detection</strong>: Partnered with security colleagues to deploy and tune machine-learning-based event anomaly detection systems.</li>
+<li><strong>Stack</strong> Self-hosted K8s, HashiCorp Vault (PKI), OpenLDAP, Kerberos, IPsec, IPv6, AWS, Python.</li>
 </ul>
-<h3 id="marvel-heroes"><strong>Marvel Heroes</strong></h3>
-<p><strong>DevOps Engineer</strong> | <em>Jun 2014 - Dec 2015</em></p>
+<h3 id="marvel-heroes-gazillion-entertainment"><strong>Marvel Heroes (Gazillion Entertainment)</strong></h3>
+<h4 id="devops-engineer--june-2014-%E2%80%93-december-2015">DevOps Engineer | June 2014 – December 2015</h4>
 <ul>
-<li>Engineered DevOps solutions for the flagship game of a $250M startup, supporting 40k+ Daily Active Users (DAU)</li>
-<li>Developed a PowerShell / SQL module to mechanize database schema changes, critical to weekly production releases</li>
-<li>Rewrote Cluster operations tools from Python to PowerShell, reducing cluster drain times from 6 minutes to 25 seconds</li>
-<li>Authored Puppet modules for the automated provisioning of a 16-node Elasticsearch cluster</li>
+<li><strong>High-Concurrency Scaling</strong>: Supported DevOps for a flagship title with 40k+ Daily Active Users (DAU) and weekly production releases.</li>
+<li><strong>Database Orchestration</strong>: Mechanized complex schema changes and SQL management tasks via PowerShell remoting to unblock high-velocity release cycles.</li>
+<li><strong>Performance Tooling</strong>: Rewrote cluster operations tools from Python to PowerShell, reducing service drain times from 6 minutes to 25 seconds.</li>
+<li><strong>Stack</strong> PowerShell, SQL Server, Puppet, Python, Elasticsearch, .NET management libraries.</li>
 </ul>
 <h3 id="two-sigma"><strong>Two Sigma</strong></h3>
-<p><strong>Systems Engineer</strong> | <em>May 2012 - Jun 2014</em></p>
+<h4 id="systems-engineer--may-2012-%E2%80%93-june-2014">Systems Engineer | May 2012 – June 2014</h4>
 <ul>
-<li>Implemented a machine deployment service spanning 3 datacenters and multiple distribution points for a Top-3 quantitative hedge fund</li>
-<li>Automated the image build, deployment, and configuration of high-performance bare-metal servers and database systems</li>
+<li><strong>Bare-Metal Engineering</strong>: Automated the image build, deployment, and configuration of high-performance servers and database systems for a top-tier quantitative hedge fund.</li>
+<li><strong>Fleet Automation</strong>: Implemented a machine deployment service spanning 3 datacenters and multiple distribution points.</li>
+<li><strong>Stack</strong> Bare-Metal Provisioning, High-Performance Linux, Automation Tooling.</li>
 </ul>
 <h3 id="columbia-university"><strong>Columbia University</strong></h3>
-<p><strong>Systems Engineer</strong> | <em>Jun 2010 - May 2012</em></p>
+<h4 id="systems-engineer--june-2010-%E2%80%93-may-2012">Systems Engineer | June 2010 – May 2012</h4>
 <ul>
-<li>Administered ESX, Storage, VMs, and bare metal infrastructure supporting Columbia's 22-site library system</li>
+<li><strong>Infrastructure</strong>: Ran ESX, storage, and VM infrastructure supporting Columbia's 22 libraries.</li>
+<li><strong>Stack</strong> VMware ESX, Storage Area Networks (SAN), Bare-Metal.</li>
 </ul>
-<hr>
 <h2 id="skills">SKILLS</h2>
-<p><strong>Cloud:</strong> Azure | AWS | GCP | VMware | VM Scale Sets | BareMetal
-<strong>Languages:</strong> Go | Python | Bash | PowerShell | SQL | Wolfram |
-<strong>Orchestration:</strong> GKE | EKS | AKS | Self-Hosted Kubernetes | Docker |
-<strong>IaC:</strong> Terraform | Terragrunt | Ansible | Puppet | Packer | Helm |
-<strong>CI/CD:</strong> Jenkins | GitLab | GitHub | Argo CD | Flux CD | GitOps
-<strong>Security:</strong> HashiCorp Vault | Vault PKI | SOPS | Azure/AWS KMS | Azure/AWS IAM |Zero Trust | Kerberos | Active Directory | Entra ID
-<strong>Database:</strong> PostgreSQL | MongoDB | CosmosDB | MS SQL | Elasticsearch</p>
-<hr>
+<ul>
+<li><strong>Orchestration</strong>: Self-Hosted Kubernetes (Expert), EKS, AKS, GKE, Docker, VM Scale Sets, ESX.</li>
+<li><strong>IaC &amp; GitOps</strong>: Terraform, Terragrunt, Ansible, Puppet, Packer, Helm, Argo CD, Flux CD.</li>
+<li><strong>Security &amp; Identity</strong>: HashiCorp Vault, Zero Trust, Kerberos, SOPS, Active Directory / Entra ID.</li>
+<li><strong>Languages</strong>: Go, Python, Bash, PowerShell, SQL, Wolfram.</li>
+<li><strong>Data Systems</strong>: PostgreSQL, MongoDB, Elasticsearch, MS SQL, CosmosDB, AWS Lambda.</li>
+</ul>
 <h2 id="education">EDUCATION</h2>
 <p><strong>The University of Denver</strong></p>
 <ul>
-<li><strong>Bachelor's Degree:</strong> Mathematics &amp; Philosophy, Double Major</li>
+<li>Bachelor's Degree: Mathematics &amp; Philosophy (Double Major).</li>
 </ul>
 
-            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
-            
-        </body>
-        </html>
+</body>
+
+</html>
