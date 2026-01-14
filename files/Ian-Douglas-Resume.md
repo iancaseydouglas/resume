@@ -2,112 +2,110 @@
 
 **SECURE PLATFORM ENGINEERING | EVERYTHING-AS-CODE**
 
-COLORADO, USA | 303-335-9358 | <iancaseydouglas@gmail.com>
+COLORADO, USA | 303-335-9358 | iancaseydouglas@gmail.com
 
-*Delivering scalable, secure solutions that transform business strategy into future forward architecture-as-code, automated with just enough human in the loop.*
+*Delivering scalable, secure solutions that transform business strategy into adaptive, automated architecture with just enough human-in-the-loop.*
 
 ## EXPERIENCE
 
 ### **Kings Mountain Security**
 
-**Security Architect & Staff Engineer** | *January 2025 - Present*
+#### Security Architect & Staff Engineer | January 2025 – Present
 
-* Co-founded a zero-trust specialized security consultancy based in Palo Alto
-* Devised core business strategy to deliver 'Zero Trust Capability Packages' to SMBs via tactical engagements within weekly timeframes and quarterly budgets
-* Developed a suite of progressive Security-as-Code modules to automate DoD Zero Trust compliance
-* Implemented container-based CI/CD pipelines for Astro-based web site
+* **Strategic Advisory**: Co-founded a zero-trust specialized security consultancy based in Palo Alto delivering 'Zero Trust Capability Packages' via tactical, high-impact engagements.
+* **Compliance Automation**: Developing progressive 'Security-as-Code' modules to automate DoD Zero Trust compliance within modern infrastructure lifecycles.
+* **Platform Delivery**: Implementing container-based CI/CD pipelines for high-integrity, secure web deployments.
+* **Stack**: Zero Trust Frameworks, Security-as-Code, Containerization, CI/CD, Astro.
 
 ### **FlowDelta Trading**
 
-**Software Engineer** | *March 2025 - Present*
+#### Software Engineer | March 2025 – Present
 
-* Developed a multi-horizon, medium-frequency (MFT) strategy analysis platform using Python, Pandas, and VectorBT Pro
-* Validated strategy robustness by generating probabilistic distributions of performance through Monte Carlo simulations on synthetic time-series data that models volatility-clustering
-* Collaborated with traders to transform trading concepts into testable, automated trading systems
+* **Quantitative Strategy**: Developing a multi-horizon, medium-frequency (MFT) strategy analysis platform using Python, Pandas, and VectorBT Pro.
+* **Probabilistic Modeling**: Validating strategy robustness via Monte Carlo simulations on synthetic time-series data to model volatility-clustering.
+* **Systems Engineering**: Partnering with traders to transform complex financial concepts into testable, automated trading systems.
+* **Stack**: Python, Pandas, VectorBT Pro, Monte Carlo Simulations, Synthetic Time-Series modeling.
 
 ### **ZagTech**
 
-**Senior Platform Engineer** | *Apr 2024 - Dec 2024*
+#### Senior Platform Engineer | April 2024 – December 2024
 
-* **Acquisition Transition:** Facilitated architectural handover during the company's acquisition by a national MSP; declined retention offer to launch Kings Mountain Security
-* Architected and authored IaC code to deliver Azure Kubernetes (AKS) and VM Scale Sets (VMSS) as modular service stacks
-* Standardized the Architecture Team's delivery model, focusing on Azure IaC and scalable Kubernetes patterns
-* Increased deployment velocity and reduced risk by implementing GitOps workflows and custom tooling in Go, Python, and Terraform
+* **Acquisition & Transition**: Facilitated the technical architectural handover during acquisition by a national MSP; declined a retention offer to launch Kings Mountain Security.
+* **Modular Infrastructure**: Architected and authored Azure IaC to deliver Azure Kubernetes (AKS) and VM Scale Sets (VMSS) as scalable, modular service stacks.
+* **Developer Velocity**: Increased deployment speed and reduced operational risk by implementing GitOps workflows and custom tooling in Go and Python.
+* **Stack**: Azure (AKS, VMSS), Terraform, Go, Python, GitOps.
 
 ### **Invitae Biosciences**
 
-**Senior Platform Engineer** | *Jul 2023 - Apr 2024*
+#### Senior Platform Engineer | July 2023 – April 2024
 
-* **Corporate Restructuring:** Tenure concluded due to corporate insolvency following adverse IP litigation regarding core technology
-* Engineered platform services for genetics researchers and medical scientists, specializing in Kubernetes, Flux CD, and container builds
-* Executed zero-downtime Kubernetes cluster upgrades using Jenkins pipelines, Terraform, Terragrunt, and Flux
-* Designed and deployed a secrets-management solution using SOPS, AWS KMS, and Shamir Sharding
-* Developed Python CLI tooling to audit Pod Security configurations and mechanize the migration from PSPs
+* **Corporate Restructuring**: Tenure concluded due to corporate insolvency following adverse IP litigation regarding core technology.
+* **Production Hardening**: Developed **Cluster Security Audit** tooling to perform Day Zero hardening and CIS compliance for petabyte-scale genomics data flows.
+* **Resilient Operations**: Executed zero-downtime Kubernetes upgrades and stateful workload migrations using Jenkins, Terraform, Terragrunt, and Flux CD.
+* **Secrets Orchestration**: Designed an enterprise secrets-management solution leveraging SOPS, AWS KMS, and Shamir Sharding
+* **Stack** Kubernetes, Flux CD, Terraform, Terragrunt, SOPS, AWS KMS, Python.
 
 ### **Pearson**
 
-**Senior Cloud Platforms Engineer** | *Sep 2019 - Aug 2021*
+#### Senior Cloud Platforms Engineer | September 2019 – August 2021
 
-* Operated the Internal Developer Platform (IDP), managing 'self-hosted' Kubernetes clusters on AWS EC2 in a 'Platform-as-Product' GitOps model
-* Extended the platform codebase using Terraform, Terragrunt, Golang, Helm, Ansible, Python, and Bash
-* Engineered a scalable log aggregation solution leveraging Fluentd, Python, AWS Lambda, and Elasticsearch
-* Redesigned the EKS cluster lifecycle module to modernize the underlying container orchestration strategy
+* **Self-Hosted Kubernetes**: Operated Internal Developer Platforms (IDP) managing **self-hosted Kubernetes clusters on AWS EC2** via a GitOps model.
+* **Distributed Observability**: Engineered a scalable log aggregation solution leveraging Fluentd, Python, AWS Lambda, and Elasticsearch.
+* **Infrastructure Lifecycle**: Redesigned EKS cluster modules to modernize container orchestration strategies and reduce operational toil.
+* **Stack** Self-hosted K8s, AWS (EC2, EKS, Lambda), Terraform, Terragrunt, Go, Ansible, Python, Fluentd, Elasticsearch.
 
 ### **Stanford University**
 
-**DevOps Engineer | Security Architect** | *Dec 2015 - Sep 2019*
+#### DevOps Engineer | Security Architect | December 2015 – September 2019
 
-#### **Cloud Engineering** (2017-2019)
+**Cloud Engineering & Transformation (2017–2019)**
 
-* Recruited to Stanford's Cloud Engineering team to help accelerate a cloud transformation strategy for core infrastructure
-* Collaborated with core engineering and security teams to containerize the Identity & Access Management (IAM) stack into microservices running on self-hosted Kubernetes clusters
-* Managed Vault clusters as part of a three-person team, providing multi-tenant secrets storage,  PKI, and authentication proxies
+* **Collaborative Identity Modernization**: Partnered with IAM teams to architect transition of Identity services (LDAP/Kerberos) to **self-hosted Kubernetes**.
+* **Infrastructure Enablement**: Delivered the foundational "vanguard" Identity stack required by all subsequent core infrastructure teams during the cloud transformation initiative.
+* **Stateful Orchestration**: Engineered replication logic, automated DB restoration, and CI/CD pipelines for multi-master LDAP and Kerberos services.
+* **Secrets Management**: Managed Vault clusters as part of a three-person team, providing multi-tenant PKI, authentication proxies, and encrypted storage.
 
-#### **Core Infrastructure** (2015-2017)
+**Core Infrastructure (2015–2017)**
 
-* Developed reference implementation of isolated cloud-resident Active Directory mesh, enabling secure domain services over IPSEC and IPv6; this work led to recruitment to Cloud team
-* Coordinated a university-wide infrastructure hardening initiative, aligning technical implementers across diverse IT units to secure critical assets
-* Partnered with security colleagues to deploy and tune machine-learning-based event anomaly and threat detection systems
+* **Zero-Trust Architecture**: Authored a reference implementation for cloud-resident Active Directory via IPv6 / IPsec mesh
+* **Internal Recruitment**: This foundational architecture served as a catalyst for recruitment to the central Cloud Engineering team.
+* **Alignment & Hardening**: Coordinated a university-wide hardening initiative, aligning technical implementers across diverse IT units to secure critical assets.
+* **Anomalous Threat Detection**: Partnered with security colleagues to deploy and tune machine-learning-based event anomaly detection systems.
+* **Stack** Self-hosted K8s, HashiCorp Vault (PKI), OpenLDAP, Kerberos, IPsec, IPv6, AWS, Python.
 
-### **Marvel Heroes**
+### **Marvel Heroes (Gazillion Entertainment)**
 
-**DevOps Engineer** | *Jun 2014 - Dec 2015*
+#### DevOps Engineer | June 2014 – December 2015
 
-* Engineered DevOps solutions for the flagship game of a $250M startup, supporting 40k+ Daily Active Users (DAU)
-* Developed a PowerShell / SQL module to mechanize database schema changes, critical to weekly production releases
-* Rewrote Cluster operations tools from Python to PowerShell, reducing cluster drain times from 6 minutes to 25 seconds
-* Authored Puppet modules for the automated provisioning of a 16-node Elasticsearch cluster
+* **High-Concurrency Scaling**: Supported DevOps for a flagship title with 40k+ Daily Active Users (DAU) and weekly production releases.
+* **Database Orchestration**: Mechanized complex schema changes and SQL management tasks via PowerShell remoting to unblock high-velocity release cycles.
+* **Performance Tooling**: Rewrote cluster operations tools from Python to PowerShell, reducing service drain times from 6 minutes to 25 seconds.
+* **Stack** PowerShell, SQL Server, Puppet, Python, Elasticsearch, .NET management libraries.
 
 ### **Two Sigma**
 
-**Systems Engineer** | *May 2012 - Jun 2014*
+#### Systems Engineer | May 2012 – June 2014
 
-* Implemented a machine deployment service spanning 3 datacenters and multiple distribution points for a Top-3 quantitative hedge fund
-* Automated the image build, deployment, and configuration of high-performance bare-metal servers and database systems
+* **Bare-Metal Engineering**: Automated the image build, deployment, and configuration of high-performance servers and database systems for a top-tier quantitative hedge fund.
+* **Fleet Automation**: Implemented a machine deployment service spanning 3 datacenters and multiple distribution points.
+* **Stack** Bare-Metal Provisioning, High-Performance Linux, Automation Tooling.
 
 ### **Columbia University**
 
-**Systems Engineer** | *Jun 2010 - May 2012*
+#### Systems Engineer | June 2010 – May 2012
 
-* Administered ESX, Storage, VMs, and bare metal infrastructure supporting Columbia's 22-site library system
-
----
+* **Infrastructure**: Ran ESX, storage, and VM infrastructure supporting Columbia's 22 libraries.
+* **Stack** VMware ESX, Storage Area Networks (SAN), Bare-Metal.
 
 ## SKILLS
 
-**Cloud:** Azure | AWS | GCP | VMware | VM Scale Sets | BareMetal
-**Languages:** Go | Python | Bash | PowerShell | SQL | Wolfram |
-**Orchestration:** GKE | EKS | AKS | Self-Hosted Kubernetes | Docker |
-**IaC:** Terraform | Terragrunt | Ansible | Puppet | Packer | Helm |
-**CI/CD:** Jenkins | GitLab | GitHub | Argo CD | Flux CD | GitOps
-**Security:** HashiCorp Vault | Vault PKI | SOPS | Azure/AWS KMS | Azure/AWS IAM |Zero Trust | Kerberos | Active Directory | Entra ID
-**Database:** PostgreSQL | MongoDB | CosmosDB | MS SQL | Elasticsearch
-
----
+* **Orchestration**: Self-Hosted Kubernetes (Expert), EKS, AKS, GKE, Docker, VM Scale Sets, ESX.
+* **IaC & GitOps**: Terraform, Terragrunt, Ansible, Puppet, Packer, Helm, Argo CD, Flux CD.
+* **Security & Identity**: HashiCorp Vault, Zero Trust, Kerberos, SOPS, Active Directory / Entra ID.
+* **Languages**: Go, Python, Bash, PowerShell, SQL, Wolfram.
+* **Data Systems**: PostgreSQL, MongoDB, Elasticsearch, MS SQL, CosmosDB, AWS Lambda.
 
 ## EDUCATION
 
 **The University of Denver**
-
-* **Bachelor's Degree:** Mathematics & Philosophy, Double Major
-  
+* Bachelor's Degree: Mathematics & Philosophy (Double Major).
