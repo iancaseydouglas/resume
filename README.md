@@ -5,17 +5,18 @@
 
 ---
 
-* [📁 Resume](#-resume)
-* [🛠️ Projects](#-projects)
-  * [☸️ Kubernetes / IaC](#-kubernetes--infrastructure-as-code)
-  * [🛡️ Security / Identity](#-security--identity)
-  * [🌲 Personal Projects](#-personal--passion-projects)
+- [Ian Casey Douglas](#ian-casey-douglas)
+  - [📁 Resume](#-resume)
+  - [🛠️ Projects](#️-projects)
+    - [☸️ Kubernetes / Infrastructure-as-code](#️-kubernetes--infrastructure-as-code)
+    - [🛡️ Security / Identity](#️-security--identity)
+    - [🌲 Personal / Passion Projects](#-personal--passion-projects)
 
 ---
 
 ## 📁 Resume
 
-- 🌐 **HTML:** [View in Browser](https://rawcdn.githack.com/iancaseydouglas/resume/refs/heads/main/files/Ian-Casey-Douglas-Resume.html)
+- 🌐 **HTML:** [View in Browser](https://rawcdn.githack.com/iancaseydouglas/resume/refs/heads/main/files/Ian-Douglas-Resume.html)
 - 📄 **PDF:** [Ian-Casey-Douglas-Resume.pdf](files/Ian-Douglas-Resume.pdf)
 - 📝 **Markdown:** [Ian-Casey-Douglas-Resume.md](files/Ian-Douglas-Resume.md)
 
