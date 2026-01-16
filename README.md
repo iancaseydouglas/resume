@@ -3,6 +3,14 @@
 **SECURE PLATFORM ENGINEERING | EVERYTHING-AS-CODE** | **COLORADO, USA** 
 > Delivering scalable secure solutions that transform business strategy into adaptive, automated architecture with just enough human-in-the-loop.
 
+### About
+
+A career in platform engineering and security architecture has centered on codifying infrastructure, hardening distributed systems, and developing pragmatic operational tools tailored to business constraints.
+
+* **Expert Platform Orchestration:** Expert in operating self-hosted K8s and managed services (EKS, AKS, GKE). Author of modular Azure/AWS stacks using Terraform, Terragrunt, and GitOps (Flux CD) to accelerate developer velocity.
+* **High-Integrity Security & Identity:** Architected foundational identity transitions (LDAP/Kerberos) to cloud-resident K8s. Expert in HashiCorp Vault, SOPS, and Shamir Sharding for enterprise encryption and Zero-Trust architecture.
+* **Systems Engineering at Scale:** Developer of high-performance tools in **Go** and **Python**; notably reduced service drain times from 6 minutes to 25 seconds in high-concurrency environments. Executed CIS compliance and day-zero hardening for petabyte-scale data flows.
+
 ---
 
 - [Ian Casey Douglas](#ian-casey-douglas)
@@ -11,8 +19,6 @@
     - [☸️ Kubernetes / Infrastructure-as-code](#️-kubernetes--infrastructure-as-code)
     - [🛡️ Security / Identity](#️-security--identity)
     - [🌲 Personal / Passion Projects](#-personal--passion-projects)
-
----
 
 ## 📁 Resume
 
