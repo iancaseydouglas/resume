@@ -55,4 +55,5 @@ A career in platform engineering and security architecture has centered on codif
 - 🔷 **[Carousel Showcase](https://github.com/iancaseydouglas/carousel-showcase)** *A clean implementation of modular UI components and responsive design tailored for high-signal technical portfolios.*
 
 ---
-*I maintain a minimal digital footprint for professional OPSEC reasons; my primary professional presence is consolidated here on GitHub.*
+
+*In the interest of OPSEC, my online presence is exclusively on GitHub.*
