@@ -1,32 +1,33 @@
-# Ian Casey Douglas
+# **Ian Casey Douglas**
 
-**SECURE PLATFORM ENGINEERING | EVERYTHING-AS-CODE** | **COLORADO, USA** 
-> Delivering scalable secure solutions that transform business strategy into adaptive, automated architecture with just enough human-in-the-loop.
+**Staff Platform Engineer | Infrastructure Architect**
 
-### About
+Platform architect with 12+ years delivering Internal Developer Platforms and infrastructure-as-product across AWS, Azure, and GCP. Rare expertise in self-managed Kubernetes, bare-metal provisioning, and enterprise secrets management. Delivers hardened, scalable platforms that unlock developer velocity at enterprise scale.
 
-A career in platform engineering and security architecture has centered on codifying infrastructure, hardening distributed systems, and developing pragmatic operational tools tailored to business constraints.
-
-* **Expert Platform Orchestration:** Expert in operating self-hosted K8s and managed services (EKS, AKS, GKE). Author of modular Azure/AWS stacks using Terraform, Terragrunt, and GitOps (Flux CD) to accelerate developer velocity.
-* **High-Integrity Security & Identity:** Architected foundational identity transitions (LDAP/Kerberos) to cloud-resident K8s. Expert in HashiCorp Vault, SOPS, and Shamir Sharding for enterprise encryption and Zero-Trust architecture.
-* **Systems Engineering at Scale:** Developer of high-performance tools in **Go** and **Python**; notably reduced service drain times from 6 minutes to 25 seconds in high-concurrency environments. Executed CIS compliance and day-zero hardening for petabyte-scale data flows.
-
----
-
-- [Ian Casey Douglas](#ian-casey-douglas)
+- [**Ian Casey Douglas**](#ian-casey-douglas)
+  - [⚙️ Technical Proficiencies](#️-technical-proficiencies)
   - [📁 Resume](#-resume)
   - [🛠️ Projects](#️-projects)
     - [☸️ Kubernetes / Infrastructure-as-code](#️-kubernetes--infrastructure-as-code)
     - [🛡️ Security / Identity](#️-security--identity)
     - [🌲 Personal / Passion Projects](#-personal--passion-projects)
 
+
+## ⚙️ Technical Proficiencies ##
+
+**Platform & Systems:** Self-Managed Kubernetes (Control Plane, etcd, Bare-Metal), Managed K8s (EKS, AKS, GKE), Software-Defined Infrastructure, Linux Internals, Hybrid/Multi-Cloud (AWS, Azure, GCP)
+
+**Software & Automation:** Go (Golang), Python (Pandas, Boto3), API-Driven Automation, Terraform at scale, GitOps (ArgoCD, Flux CD), CI/CD (GitHub Actions, GitLab Pipelines), Bash, PowerShell
+
+**Security & Governance:** HashiCorp Vault (PKI), Policy-as-Code (OPA), Zero Trust Architecture, Identity Management (Azure Entra ID, AWS IAM/PIM), Compliance Hardening
+
+**Observability & Data:** Prometheus, Grafana, Distributed Logging (Fluentd, Elasticsearch), PostgreSQL, MSSQL, High-Throughput Data Pipelines
+
 ## 📁 Resume
 
 - 🌐 **HTML:** [View in Browser](https://rawcdn.githack.com/iancaseydouglas/resume/refs/heads/main/files/Ian-Douglas-Resume.html)
 - 📄 **PDF:** [Ian-Casey-Douglas-Resume.pdf](files/Ian-Douglas-Resume.pdf)
 - 📝 **Markdown:** [Ian-Casey-Douglas-Resume.md](files/Ian-Douglas-Resume.md)
-
----
 
 ## 🛠️ Projects
 
