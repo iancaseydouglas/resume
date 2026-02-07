@@ -1,8 +1,9 @@
-# **IAN DOUGLAS**
+# **Ian Douglas**
 
 **Staff Platform Engineer | Infrastructure Architect**
 
-303-335-9358 | iancaseydouglas@gmail.com | github.com/iancaseydouglas
+303-335-9358 | [iancaseydouglas@gmail.com](mailto:iancaseydouglas@gmail.com) | [github.com/iancaseydouglas](https://github.com/iancaseydouglas/resume)
+
 
 **PROFESSIONAL SUMMARY**
 
@@ -56,8 +57,8 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 *Senior Cloud Platforms Engineer* | 09/2019 – 08/2021
 
-* **Platform-as-Product:** Developed and operated Internal Developer Platforms (IDP) via self-hosted Kubernetes in continuous delivery (CI/CD) GitOps model.	  
-* **Cloud-Native Engineering:** Engineered a **self-managed Kubernetes ecosystem** on EC2, developing custom Go-based operators to abstract and orchestrate AWS services.   
+* **Platform-as-Product:** Developed and operated Internal Developer Platforms (IDP) via self-hosted Kubernetes in continuous delivery (CI/CD) GitOps model.   
+* **Cloud-Native Engineering:** Engineered a **self-managed Kubernetes ecosystem** on EC2, developing custom Go-based operators to abstract and orchestrate AWS services.
 * **Observability Pipeline:** Developed a scalable, distributed log aggregation system using Fluentd, Python, and AWS Lambda, processing massive log volumes into Elasticsearch for real-time analysis.
 
 **Stanford University** | Palo Alto, CA
