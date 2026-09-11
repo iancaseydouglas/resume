@@ -25,7 +25,7 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 ## 📁 Resume
 
-- 🌐 **HTML:** [View in Browser](https://raw.githack.com/iancaseydouglas/resume/refs/heads/main/files/Ian-Douglas-Resume.html)
+- 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume.html)
 - 📄 **PDF:** [Ian-Casey-Douglas-Resume.pdf](files/Ian-Douglas-Resume.pdf)
 - 📝 **Markdown:** [Ian-Casey-Douglas-Resume.md](files/Ian-Douglas-Resume.md)
 

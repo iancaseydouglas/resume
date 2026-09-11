@@ -13,13 +13,21 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 **Platform & Systems:** Self-Managed Kubernetes (Control Plane, etcd, Bare-Metal), Managed K8s (EKS, AKS, GKE), Software-Defined Infrastructure, Linux Internals, Hybrid/Multi-Cloud (AWS, Azure, GCP)
 
-**Software & Automation:** Go (Golang), Python (Pandas, Boto3), API-Driven Automation, Terraform at scale, GitOps (ArgoCD, Flux CD), CI/CD (GitHub Actions, GitLab Pipelines), Bash, PowerShell
+**Software & Automation:** Go (Golang), Python (Pandas, Boto3), API-Driven Automation, Terraform at scale, GitOps (ArgoCD, Flux CD), CI/CD (GitHub Actions, GitLab Pipelines), Agentic Workflows (Claude Code, Codex), Bash, PowerShell
 
 **Security & Governance:** HashiCorp Vault (PKI), Policy-as-Code (OPA), Zero Trust Architecture, Identity Management (Azure Entra ID, AWS IAM/PIM), Compliance Hardening
 
 **Observability & Data:** Prometheus, Grafana, Distributed Logging (Fluentd, Elasticsearch), PostgreSQL, MSSQL, High-Throughput Data Pipelines
 
 **PROFESSIONAL EXPERIENCE**
+
+**The Motley Fool** | Alexandria, VA (Remote)
+
+*Senior Platform Engineer* | 04/2026 – Present
+
+* **Cloud Infrastructure:** Operated AWS Cloud and Kubernetes clusters as part of a five-person team.
+* **CI/CD & Automation:** Modernized CI/CD pipelines, migrating Jenkins to GitHub Actions.
+* **AI Agentic Development:** Accelerated development with agentic workflows on Claude and Codex.
 
 **Kings Mountain Security** | Palo Alto, CA (Remote)
 
@@ -31,7 +39,7 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 **FlowDelta Trading** | Boulder, CO (Remote)
 
-*Senior Software Engineer (Python/Data)* | 01/2025 – Present
+*Senior Software Engineer (Python/Data)* | 01/2025 – 04/2026
 
 * **Platform as Product:** Developed a proprietary, multi-horizon analysis platform for a boutique trading desk, enabling rapid backtesting and validation of medium-frequency algorithms.  
 * **Data-Intensive Systems**: Engineered a vectorized Monte Carlo simulation engine to perform multi-dimensional parameter grid sweeps, optimizing data throughput for large-scale strategy stress-testing.
@@ -48,7 +56,7 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 *Senior Platform Engineer* | 07/2023 – 04/2024
 
-* **Internal Developer Platform (IDP):** Engineered a self-service IDP for genetics researchers and software engineers, abstracting complex compute requirements for petabyte-scale genomics workloads as part of a five person team.  
+* **Internal Developer Platform (IDP):** Engineered a self-service IDP for genetics researchers and software engineers, abstracting complex compute requirements for petabyte-scale genomics workloads as part of a five-person team.  
 * **Reliability Engineering:** Executed zero-downtime Kubernetes upgrades and complex stateful workload migrations, maintaining high availability for critical research data.  
 * **Secrets Management Architecture:** Designed an enterprise-grade secrets management solution utilizing **SOPS**, **AWS KMS**, and Shamir Sharding to enforce "least privilege" access programmatically.  
 * **Policy-as-Code:** Developed custom auditing tools to enforce CIS benchmarks and Day Zero hardening across all cluster deployments.
@@ -67,7 +75,7 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 * **Identity Modernization:** Partnered with Infrastructure teams to re-architect legacy Identity services (LDAP/Kerberos) into containerized, cloud-native workloads running on self-hosted Kubernetes.  
 * **Cloud-Native Directory:** Authored the reference implementation for a cloud-resident Active Directory system leveraging IPv6 and IPsec mesh networking for secure, boundary-less access.  
-* **Secrets Infrastructure:** Managed multi-tenant **HashiCorp Vault** clusters to provide automated PKI, authentication proxies, and encrypted storage for university-wide applications, as part of a three person team.
+* **Secrets Infrastructure:** Managed multi-tenant **HashiCorp Vault** clusters to provide automated PKI, authentication proxies, and encryption as part of a three-person team.
 
 **Marvel Heroes (Gazillion Entertainment)** | Foster City, CA
 
