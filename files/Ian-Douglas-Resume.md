@@ -69,6 +69,8 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 * **Cloud-Native Engineering:** Engineered a **self-managed Kubernetes ecosystem** on EC2, developing custom Go-based operators to abstract and orchestrate AWS services.
 * **Observability Pipeline:** Developed a scalable, distributed log aggregation system using Fluentd, Python, and AWS Lambda, processing massive log volumes into Elasticsearch for real-time analysis.
 
+<div style="page-break-after: always;"></div>
+
 **Stanford University** | Palo Alto, CA
 
 *DevOps Engineer & Security Architect* | 12/2015 – 09/2019
@@ -84,14 +86,12 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 * **High-Concurrency Scaling:** Scaled infrastructure for a flagship MMO with 40k+ DAU; developed cluster ops tools in PowerShell and SQL Server Management Objects (SMO) to automate database operations and reduce service drain times by 93%  
 * **Production Velocity:** Supported high-velocity weekly production releases while maintaining system reliability.
 
-**Early Career**
-
 **Two Sigma** | New York, NY
 
 *Systems Engineer* | 05/2012 – 06/2014
 
-* **Fleet Management:** Automated bare-metal provisioning and configuration management for high-performance servers and secure endpoints at a top-three quantitative hedge fund.  
-* **Lifecycle Automation:** Orchestrated deployment and lifecycle operations of 1,000+ secure workstations.
+* **Fleet Management:** Automated bare-metal provisioning and configuration management for high-performance servers critical to research and trading operations.
+* **Lifecycle Automation:**Orchestrated zero-touch deployment and lifecycle operations of 1,000+ secure workstations firm-wide.
 
 **Columbia University** | New York, NY
 
@@ -105,5 +105,5 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 Bachelor of Arts (BA), Double Major: Mathematics & Philosophy
 
-* **Mathematics:** Completed full BS curriculum including graduate-level coursework.  
+* **Mathematics:** Completed Bachelor of Science curriculum including grad-level coursework.
 * **Philosophy:** Specialized in Formal Logic and Epistemology.
