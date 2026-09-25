@@ -49,6 +49,8 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 
 ### 🌲 Personal / Passion Projects
 
+- 🔷 **[strange.pets.comfyui](https://github.com/iancaseydouglas/strange.pets.comfyui)** *ComfyUI node pack for the Black Forest Labs FLUX.2 and Stability AI image APIs; 48 nodes generated from the vendors' OpenAPI specs, with a seed-keyed result cache, batch/sweep tooling, and a deck-agnostic tarot production pipeline driven by a scoped style cascade.*
+
 - 🔷 **[Flux Kontext CLI](https://github.com/iancaseydouglas/flux_kontext_cli)** *Go-based CLI for Black Forest Labs' Flux Kontext Pro, built with functional programming principles. Implements enterprise-grade security for generative AI asset pipelines.*
 
 - 🔷 **[Dreamkraft](https://github.com/iancaseydouglas/dreamkraft)** *Exploring Generative AI within infrastructure lifecycles; automating asset pipelines and programmatic scaffolding to bridge the gap between creative strategy and Architecture-as-Code.*
