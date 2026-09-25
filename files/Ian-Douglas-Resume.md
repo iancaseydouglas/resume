@@ -91,7 +91,7 @@ Platform architect with 12+ years delivering Internal Developer Platforms and in
 *Systems Engineer* | 05/2012 – 06/2014
 
 * **Fleet Management:** Automated bare-metal provisioning and configuration management for high-performance servers critical to research and trading operations.
-* **Lifecycle Automation:**Orchestrated zero-touch deployment and lifecycle operations of 1,000+ secure workstations firm-wide.
+* **Lifecycle Automation:** Orchestrated zero-touch deployment and lifecycle operations of 1,000+ secure workstations firm-wide.
 
 **Columbia University** | New York, NY
 
