@@ -1,8 +1,9 @@
 # **Ian Douglas**
 
-**Staff Platform Engineer | Infrastructure Architect**
+**Senior Platform Engineer | Security Architect**
 
-Platform architect with 12+ years delivering infrastructure-as-product, automation tooling, and self-service platforms across AWS, Azure, and GCP. Specializes in Kubernetes, zero-trust architecture, and identity infrastructure. Builds hardened platforms that unlock developer velocity at enterprise scale.
+Platforms and Security expert with 12+ years delivering secure, code-driven infrastructure for mission critical and flagship services across Kubernetes, Cloud, and Bare-metal. Deep experience managing the full lifecycle of identity and secrets infrastructure, including automated pipelines and tooling for day-two operations.
+
 
 - [🛠️ Projects](#️-projects)
   - [☸️ Kubernetes / Infrastructure-as-Code](#️-kubernetes--infrastructure-as-code)
