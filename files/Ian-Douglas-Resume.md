@@ -2,7 +2,7 @@
 
 **Senior Platform Engineer | Security Architect**
 
-303-335-9358 | [iancaseydouglas@gmail.com](mailto:iancaseydouglas@gmail.com) | [github.com/iancaseydouglas](https://github.com/iancaseydouglas/resume)
+303-335-9358 | [iancasey.douglas@gmail.com](mailto:iancasey.douglas@gmail.com) | [github.com/iancaseydouglas](https://github.com/iancaseydouglas/resume)
 
 
 **PROFESSIONAL SUMMARY**
