@@ -2,7 +2,7 @@
 
 **Senior Platform Engineer | Security Architect**
 
-Platform and security engineer with 12+ years delivering secure, code-driven infrastructure across AWS, Azure, GCP, Kubernetes, and bare metal. Builds self-service internal platforms, reusable Terraform modules, GitOps delivery, and Go and Python tooling that shrink months of manual work into automated pipelines. Deep experience running identity and secrets infrastructure end to end, from moving Stanford's authentication stack (SAML/Shibboleth, Kerberos, OpenLDAP) onto Kubernetes to operating multi-tenant Vault PKI, and supporting research-scale workloads from petabyte-scale genomics to high-performance compute fleets.
+Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical and flagship services across Kubernetes, AWS, Azure, GCP, and bare metal. Builds self-service platforms, reusable Terraform modules, and Go and Python automation that turn manual operations into pipelines. Deep experience managing the full lifecycle of identity and secrets infrastructure, including the tooling for day-two operations.
 
 
 - [🛠️ Projects](#️-projects)
