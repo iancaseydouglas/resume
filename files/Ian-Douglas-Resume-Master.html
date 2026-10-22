@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ian-Douglas-Resume-Master.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="ian-douglas"><strong>Ian Douglas</strong></h1>
+<p><strong>Senior Platform Engineer | Cloud &amp; Security Architect</strong></p>
+<p>303-335-9358 | <a href="mailto:iancasey.douglas@gmail.com">iancasey.douglas@gmail.com</a> | <a href="https://github.com/iancaseydouglas/resume">github.com/iancaseydouglas</a></p>
+<p><strong>PROFESSIONAL SUMMARY</strong></p>
+<p>Platform and security engineer with 12+ years delivering secure, code-driven infrastructure across AWS, Azure, GCP, Kubernetes, and bare metal. Builds self-service internal platforms, reusable Terraform modules, GitOps delivery, and Go and Python tooling that shrink months of manual work into automated pipelines. Deep experience running identity and secrets infrastructure end to end, from moving Stanford's authentication stack (SAML/Shibboleth, Kerberos, OpenLDAP) onto Kubernetes to operating multi-tenant Vault PKI, and supporting research-scale workloads from petabyte-scale genomics to high-performance compute fleets.</p>
+<p><strong>TECHNICAL PROFICIENCIES</strong></p>
+<p><strong>Platforms &amp; Containers:</strong> Kubernetes (EKS, AKS, GKE, self-managed control plane &amp; etcd, bare metal), Docker, Custom Operators, Internal Developer Platforms, Linux Internals</p>
+<p><strong>Cloud:</strong> AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid &amp; Multi-Cloud Integration</p>
+<p><strong>Infrastructure as Code &amp; Delivery:</strong> Terraform at scale (reusable module libraries), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git &amp; Pull-Request Workflows</p>
+<p><strong>Software &amp; Automation:</strong> Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)</p>
+<p><strong>Identity &amp; Security:</strong> HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design</p>
+<p><strong>Networking:</strong> Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates &amp; PKI</p>
+<p><strong>Observability &amp; Data:</strong> Splunk, Prometheus, Grafana, Fluentd, Elasticsearch, Centralized Log Aggregation, PostgreSQL, MSSQL, High-Throughput Data Pipelines</p>
+<p><strong>PROFESSIONAL EXPERIENCE</strong></p>
+<div style="break-inside: avoid;">
+<p><strong>The Motley Fool</strong> | Alexandria, VA (Remote)</p>
+<p><em>Senior Platform Engineer (Contract)</em> | 04/2026 – Present</p>
+<ul>
+<li><strong>CI/CD Migration Automation:</strong> Built reusable Python tooling that migrated ~200 repositories from Jenkins to GitHub Actions, including moving secrets from AWS Secrets Manager to dotenvx, saving months of manual effort.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Cloud Infrastructure:</strong> Operate production AWS and Kubernetes infrastructure.</li>
+<li><strong>AI-Accelerated Engineering:</strong> Developed the migration toolchain with Claude Code agentic workflows, shipping production-grade automation in a fraction of the usual time.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>Kings Mountain Security</strong> | Palo Alto, CA (Remote)</p>
+<p><em>Co-Founder, DevSecOps Engineer &amp; Security Architect</em> | 01/2025 – Present</p>
+<ul>
+<li><strong>Zero Trust Architecture:</strong> Co-founded a security consultancy delivering Terraform-based &quot;Zero Trust Capability Packages&quot; modeled on NIST SP 800-207, turning security requirements into deployable guardrails and technical controls.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Compliance Automation:</strong> Developing Security-as-Code modules that automate DoD Zero Trust compliance across the infrastructure lifecycle.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>FlowDelta Trading</strong> | Boulder, CO (Remote)</p>
+<p><em>Senior Software Engineer, Python/Data (Contract)</em> | 01/2025 – 04/2026</p>
+<ul>
+<li><strong>Backtesting Platform:</strong> Developed a proprietary, multi-horizon analysis platform for a boutique trading desk, enabling rapid backtesting and validation of medium-frequency algorithms.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Data-Intensive Systems:</strong> Engineered a vectorized Monte Carlo simulation engine to perform multi-dimensional parameter grid sweeps.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>ZagTech</strong> | San Jose, CA (Remote)</p>
+<p><em>Senior Platform Engineer</em> | 04/2024 – 12/2024</p>
+<ul>
+<li><strong>Golden Path Modules:</strong> Architected reusable Terraform libraries for AKS and VMSS, establishing a standard path for compliant, self-service infrastructure provisioning.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Commercial Platform:</strong> Engineered a proprietary Kubernetes platform deployed across multiple enterprise clients; the codebase was a primary value driver in the firm's subsequent acquisition.</li>
+<li><strong>Cloud Networking:</strong> Designed Azure network connectivity for client environments, including VNet peering, site-to-site VPN, and hub transit routing.</li>
+<li><strong>Cost Optimization:</strong> Rightsized and tuned Azure infrastructure to meet client cost requirements.</li>
+<li><strong>Documentation &amp; Runbooks:</strong> Wrote implementation guides and operational runbooks for client handoff and internal teams.</li>
+<li><strong>Developer Experience:</strong> Built Go and Python tooling to automate GitOps workflows, increasing deployment velocity while reducing change failure rates.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>Invitae Biosciences</strong> | San Francisco, CA (Remote)</p>
+<p><em>Senior Platform Engineer</em> | 07/2023 – 04/2024</p>
+<ul>
+<li><strong>Research Compute Platform:</strong> Built a self-service platform on self-managed Kubernetes on AWS EC2 for petabyte-scale genomics workloads; executed zero-downtime cluster upgrades and stateful migrations.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Secrets Management Architecture:</strong> Designed least-privilege secrets management using SOPS, AWS KMS, and Shamir secret sharing.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>Pearson</strong> | London, UK (Remote)</p>
+<p><em>Senior Cloud Platforms Engineer</em> | 09/2019 – 08/2021</p>
+<ul>
+<li><strong>Multi-Account AWS:</strong> Built and operated platform infrastructure across a multi-account AWS environment managed with AWS Organizations.</li>
+</ul>
+</div>
+<ul>
+<li><strong>GitOps Platform:</strong> Built and operated self-service developer platforms on Kubernetes with GitOps-based continuous delivery, including ephemeral Kubernetes environments for development and testing.</li>
+<li><strong>Custom Kubernetes Operators:</strong> Wrote Go-based operators to orchestrate AWS services from self-managed Kubernetes on EC2.</li>
+<li><strong>Centralized Logging:</strong> Implemented log aggregation with a distributed pipeline (Fluentd, Python, AWS Lambda) feeding Elasticsearch and Splunk for real-time analysis.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>Stanford University</strong> | Palo Alto, CA</p>
+<p><em>DevOps Engineer &amp; Security Architect</em> | 12/2015 – 09/2019</p>
+<ul>
+<li><strong>Identity Modernization:</strong> Partnered with Infrastructure teams to move the university's authentication and authorization stack (SAML/Shibboleth SSO, Kerberos v5, OpenLDAP) from legacy servers onto Kubernetes.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Hybrid Active Directory Architecture:</strong> Authored the reference architecture and Terraform code for Active Directory over IPv6 with transport-mode IPsec, certificate-based mutual authentication, and hybrid DNS, letting distributed teams in separate AWS VPCs join the domain securely without network peering or coordinated IP space; deployed through UAT into a small production footprint.</li>
+<li><strong>Hybrid Cloud Networking:</strong> Built connectivity between on-premises infrastructure and AWS using Transit Gateway, site-to-site VPN, and VPC peering.</li>
+<li><strong>Multi-Account &amp; Multi-Cloud:</strong> Operated AWS Organizations multi-account environments and supported the university's growing GKE footprint alongside self-hosted Kubernetes.</li>
+<li><strong>Secrets Infrastructure:</strong> Managed multi-tenant HashiCorp Vault clusters providing automated PKI, authentication proxies, and encryption as part of a three-person team.</li>
+<li><strong>Security Monitoring:</strong> Integrated services with Splunk for centralized logging and security visibility.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>Marvel Heroes (Gazillion Entertainment)</strong> | Foster City, CA</p>
+<p><em>DevOps Engineer</em> | 06/2014 – 12/2015</p>
+<ul>
+<li><strong>Cluster Ops Tooling:</strong> Built PowerShell and SQL Server Management Objects (SMO) tooling to automate database operations and co-developed cluster operations tools for a flagship MMO with 40k+ daily active users, cutting service drain times by 93%.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Observability at Scale:</strong> Operated large metrics and log aggregation servers for production game infrastructure.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>Two Sigma</strong> | New York, NY</p>
+<p><em>Systems Engineer</em> | 05/2012 – 06/2014</p>
+<ul>
+<li><strong>High-Performance Fleet:</strong> Automated bare-metal provisioning and configuration management for high-performance servers supporting research and trading operations.</li>
+</ul>
+</div>
+<ul>
+<li><strong>Lifecycle Automation:</strong> Orchestrated zero-touch deployment and lifecycle operations of 1,000+ secure workstations firm-wide.</li>
+</ul>
+<div style="break-inside: avoid;">
+<p><strong>Columbia University</strong> | New York, NY</p>
+<p><em>Systems Engineer</em> | 06/2010 – 05/2012</p>
+<ul>
+<li><strong>Infrastructure Operations:</strong> Ran databases, ESX, storage, and VM infrastructure supporting Columbia's 22 libraries.</li>
+</ul>
+</div>
+<p><strong>EDUCATION</strong></p>
+<p><strong>University of Denver</strong> | Denver, CO</p>
+<p>Bachelor of Arts (BA), Double Major: Mathematics &amp; Philosophy</p>
+<ul>
+<li><strong>Mathematics:</strong> Completed Bachelor of Science curriculum including grad-level coursework.</li>
+<li><strong>Philosophy:</strong> Specialized in Formal Logic and Epistemology.</li>
+</ul>
+
+</body>
+</html>
