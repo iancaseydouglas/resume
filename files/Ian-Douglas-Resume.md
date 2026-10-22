@@ -1,23 +1,29 @@
 # **Ian Douglas**
 
-**Senior Platform Engineer | Security Architect**
+**Cloud Infrastructure & Security Engineer | AWS · GCP · Kubernetes**
 
 303-335-9358 | [iancasey.douglas@gmail.com](mailto:iancasey.douglas@gmail.com) | [github.com/iancaseydouglas](https://github.com/iancaseydouglas/resume)
 
 
 **PROFESSIONAL SUMMARY**
 
-Platforms and Security expert with 12+ years delivering secure, code-driven infrastructure for mission critical and flagship services across Kubernetes, Cloud, and Bare-metal. Deep experience managing the full lifecycle of identity and secrets infrastructure, including automated pipelines and tooling for day-two operations.
+Cloud infrastructure and security engineer with 12+ years designing, automating, and operating secure infrastructure across AWS, GCP, Azure, and on-premises data centers. At Stanford, operated multi-account AWS environments and a growing GKE footprint, moved the university's authentication stack (SAML/Shibboleth, Kerberos, OpenLDAP) onto Kubernetes, and ran multi-tenant Vault PKI. Builds reusable Terraform modules, CI/CD pipelines, and policy-as-code guardrails, and has supported research-scale workloads from petabyte-scale genomics to high-performance compute fleets for quantitative research.
 
 **TECHNICAL PROFICIENCIES**
 
-**Platform & Systems:** Managed K8s (EKS, AKS, GKE), Self-Managed Kubernetes (Control Plane, etcd, Bare-Metal), Software-Defined Infrastructure, Linux Internals, Hybrid/Multi-Cloud (AWS, Azure, GCP)
+**Cloud Platforms:** AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda, EKS), GCP (GKE), Azure (AKS, VMSS), Hybrid & Multi-Cloud Integration
 
-**Software & Automation:** Go (Golang), Python (Pandas, Boto3), API-Driven Automation, Terraform at scale, GitOps (ArgoCD, Flux CD), CI/CD (GitHub Actions, GitLab Pipelines), Agentic Workflows (Claude Code, Codex), Bash, PowerShell
+**Infrastructure as Code & CI/CD:** Terraform (reusable module libraries), GitHub Actions, GitLab Pipelines, Jenkins, GitOps (Argo CD, Flux CD), Git & Pull-Request Workflows
 
-**Security & Governance:** HashiCorp Vault (PKI), Policy-as-Code (OPA), Zero Trust Architecture, Identity Management (Azure Entra ID, AWS IAM/PIM), Compliance Hardening
+**Networking:** Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
 
-**Observability & Data:** Prometheus, Grafana, Distributed Logging (Fluentd, Elasticsearch), PostgreSQL, MSSQL, High-Throughput Data Pipelines
+**Identity & Security:** SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, HashiCorp Vault (PKI), AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
+
+**Containers & Platforms:** Kubernetes (EKS, GKE, AKS, self-managed control plane & etcd), Docker, Custom Operators, Internal Developer Platforms
+
+**Observability:** Splunk, Centralized Log Aggregation, Prometheus, Grafana, Fluentd, Elasticsearch
+
+**Languages & Automation:** Python (Boto3, Pandas), Go, Bash, PowerShell, SQL, Agentic Development (Claude Code, Codex)
 
 **PROFESSIONAL EXPERIENCE**
 
@@ -25,38 +31,36 @@ Platforms and Security expert with 12+ years delivering secure, code-driven infr
 
 **The Motley Fool** | Alexandria, VA (Remote)
 
-*Senior Platform Engineer* | 04/2026 – Present
+*Senior Platform Engineer (Contract)* | 04/2026 – Present
 
-* **Migration Automation:** Built reusable Python tooling that migrated ~200 repositories from Jenkins to GitHub Actions, including secrets from AWS Secrets Manager to dotenvx, saving months of manual effort.
+* **CI/CD Migration Automation:** Built reusable Python tooling that migrated ~200 repositories from Jenkins to GitHub Actions, including moving secrets from AWS Secrets Manager to dotenvx, saving months of manual effort.
 
 </div>
 
-* **AI-Accelerated Development:** Developed the toolchain with Claude Code agentic workflows, shipping production-grade automation in a fraction of the usual time.
 * **Cloud Infrastructure:** Operate production AWS and Kubernetes infrastructure.
+* **AI-Accelerated Engineering:** Developed the migration toolchain with Claude Code agentic workflows, shipping production-grade automation in a fraction of the usual time.
 
 <div style="break-inside: avoid;">
 
 **Kings Mountain Security** | Palo Alto, CA (Remote)
 
-*DevSecOps Engineer & Security Architect* | 01/2025 – Present
+*Co-Founder, DevSecOps Engineer & Security Architect* | 01/2025 – Present
 
-* **Zero Trust Architecture:** Co-founded a zero-trust specialized security consultancy delivering 'Zero Trust Capability Packages' via tactical, high-impact engagements.
+* **Zero Trust Architecture:** Co-founded a security consultancy delivering Terraform-based "Zero Trust Capability Packages" modeled on NIST SP 800-207, turning security requirements into deployable guardrails and technical controls.
 
 </div>
 
-* **Compliance Automation:** Developing progressive 'Security-as-Code' modules to automate DoD Zero Trust compliance within modern infrastructure lifecycles.
+* **Compliance Automation:** Developing Security-as-Code modules that automate DoD Zero Trust compliance across the infrastructure lifecycle.
 
 <div style="break-inside: avoid;">
 
 **FlowDelta Trading** | Boulder, CO (Remote)
 
-*Senior Software Engineer (Python/Data)* | 01/2025 – 04/2026
+*Senior Software Engineer, Python/Data (Contract)* | 01/2025 – 04/2026
 
-* **Backtesting Platform:** Developed a proprietary, multi-horizon analysis platform for a boutique trading desk, enabling rapid backtesting and validation of medium-frequency algorithms.
+* **Data-Intensive Analytics:** Built a backtesting platform and vectorized Monte Carlo engine that ran multi-dimensional parameter sweeps to validate trading algorithms.
 
 </div>
-
-* **Data-Intensive Systems:** Engineered a vectorized Monte Carlo simulation engine to perform multi-dimensional parameter grid sweeps.
 
 <div style="break-inside: avoid;">
 
@@ -64,12 +68,15 @@ Platforms and Security expert with 12+ years delivering secure, code-driven infr
 
 *Senior Platform Engineer* | 04/2024 – 12/2024
 
-* **Commercial Platform:** Engineered a proprietary Kubernetes platform commercialized across multiple enterprise clients; codebase served as a primary value driver for the firm's subsequent acquisition.
+* **Golden Path Modules:** Architected reusable Terraform libraries for AKS and VMSS, establishing a standard path for compliant, self-service infrastructure provisioning.
 
 </div>
 
-* **Golden Path Modules:** Architected modular Terraform libraries for AKS and VMSS, establishing a "Golden Path" for compliant, self-service infrastructure provisioning.
-* **Developer Experience (DevEx):** Built Go and Python tooling to automate GitOps workflows, increasing deployment velocity while reducing change failure rates.
+* **Commercial Platform:** Engineered a proprietary Kubernetes platform deployed across multiple enterprise clients; the codebase was a primary value driver in the firm's subsequent acquisition.
+* **Cloud Networking:** Designed Azure network connectivity for client environments, including VNet peering, site-to-site VPN, and hub transit routing.
+* **Cost Optimization:** Rightsized and tuned Azure infrastructure to meet client cost requirements.
+* **Documentation & Runbooks:** Wrote implementation guides and operational runbooks for client handoff and internal teams.
+* **Developer Experience:** Built Go and Python tooling to automate GitOps workflows, increasing deployment velocity while reducing change failure rates.
 
 <div style="break-inside: avoid;">
 
@@ -77,7 +84,7 @@ Platforms and Security expert with 12+ years delivering secure, code-driven infr
 
 *Senior Platform Engineer* | 07/2023 – 04/2024
 
-* **Internal Developer Platform (IDP):** Built a self-service platform abstracting compute for petabyte-scale genomics workloads; executed zero-downtime Kubernetes upgrades and stateful migrations.
+* **Research Compute Platform:** Built a self-service platform on self-managed Kubernetes on AWS EC2 for petabyte-scale genomics workloads; executed zero-downtime cluster upgrades and stateful migrations.
 
 </div>
 
@@ -89,12 +96,13 @@ Platforms and Security expert with 12+ years delivering secure, code-driven infr
 
 *Senior Cloud Platforms Engineer* | 09/2019 – 08/2021
 
-* **GitOps Platform:** Built and operated self-service developer platforms on Kubernetes with GitOps-based continuous delivery.
+* **Multi-Account AWS:** Built and operated platform infrastructure across a multi-account AWS environment managed with AWS Organizations.
 
 </div>
 
+* **GitOps Platform:** Built and operated self-service developer platforms on Kubernetes with GitOps-based continuous delivery, including ephemeral Kubernetes environments for development and testing.
 * **Custom Kubernetes Operators:** Wrote Go-based operators to orchestrate AWS services from self-managed Kubernetes on EC2.
-* **Observability Pipeline:** Built a distributed logging pipeline (Fluentd, Python, AWS Lambda) streaming into Elasticsearch for real-time analysis.
+* **Centralized Logging:** Implemented log aggregation with a distributed pipeline (Fluentd, Python, AWS Lambda) feeding Elasticsearch and Splunk for real-time analysis.
 
 <div style="break-inside: avoid;">
 
@@ -102,12 +110,15 @@ Platforms and Security expert with 12+ years delivering secure, code-driven infr
 
 *DevOps Engineer & Security Architect* | 12/2015 – 09/2019
 
-* **Identity Modernization:** Partnered with Infrastructure teams to re-architect legacy Identity services (LDAP/Kerberos) into containerized, cloud-native workloads running on self-hosted Kubernetes.
+* **Identity Modernization:** Partnered with Infrastructure teams to move the university's authentication and authorization stack (SAML/Shibboleth SSO, Kerberos v5, OpenLDAP) from legacy servers onto Kubernetes.
 
 </div>
 
-* **Cloud-Native Directory:** Authored the reference implementation for a cloud-resident Active Directory system leveraging IPv6 and IPsec mesh networking for secure, boundary-less access.
-* **Secrets Infrastructure:** Managed multi-tenant HashiCorp Vault clusters to provide automated PKI, authentication proxies, and encryption as part of a three-person team.
+* **Hybrid Active Directory Architecture:** Authored the reference architecture and Terraform code for Active Directory over IPv6 with transport-mode IPsec, certificate-based mutual authentication, and hybrid DNS, letting distributed teams in separate AWS VPCs join the domain securely without network peering or coordinated IP space; deployed through UAT into a small production footprint.
+* **Hybrid Cloud Networking:** Built connectivity between on-premises infrastructure and AWS using Transit Gateway, site-to-site VPN, and VPC peering.
+* **Multi-Account & Multi-Cloud:** Operated AWS Organizations multi-account environments and supported the university's growing GKE footprint alongside self-hosted Kubernetes.
+* **Secrets Infrastructure:** Managed multi-tenant HashiCorp Vault clusters providing automated PKI, authentication proxies, and encryption as part of a three-person team.
+* **Security Monitoring:** Integrated services with Splunk for centralized logging and security visibility.
 
 <div style="break-inside: avoid;">
 
@@ -119,13 +130,15 @@ Platforms and Security expert with 12+ years delivering secure, code-driven infr
 
 </div>
 
+* **Observability at Scale:** Operated large metrics and log aggregation servers for production game infrastructure.
+
 <div style="break-inside: avoid;">
 
 **Two Sigma** | New York, NY
 
 *Systems Engineer* | 05/2012 – 06/2014
 
-* **Fleet Management:** Automated bare-metal provisioning and configuration management for high-performance servers critical to research and trading operations.
+* **High-Performance Fleet:** Automated bare-metal provisioning and configuration management for high-performance servers supporting research and trading operations.
 
 </div>
 
