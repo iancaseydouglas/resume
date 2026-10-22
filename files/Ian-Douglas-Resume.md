@@ -1,29 +1,29 @@
 # **Ian Douglas**
 
-**Cloud Infrastructure & Security Engineer | AWS · GCP · Kubernetes**
+**Senior Platform Engineer | Cloud & Security Architect**
 
 303-335-9358 | [iancasey.douglas@gmail.com](mailto:iancasey.douglas@gmail.com) | [github.com/iancaseydouglas](https://github.com/iancaseydouglas/resume)
 
 
 **PROFESSIONAL SUMMARY**
 
-Cloud infrastructure and security engineer with 12+ years designing, automating, and operating secure infrastructure across AWS, GCP, Azure, and on-premises data centers. At Stanford, operated multi-account AWS environments and a growing GKE footprint, moved the university's authentication stack (SAML/Shibboleth, Kerberos, OpenLDAP) onto Kubernetes, and ran multi-tenant Vault PKI. Builds reusable Terraform modules, CI/CD pipelines, and policy-as-code guardrails, and has supported research-scale workloads from petabyte-scale genomics to high-performance compute fleets for quantitative research.
+Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical and flagship services across Kubernetes, AWS, Azure, GCP, and bare metal. Builds self-service platforms, reusable Terraform modules, and Go and Python automation that turn manual operations into pipelines. Deep experience managing the full lifecycle of identity and secrets infrastructure, including the tooling for day-two operations.
 
 **TECHNICAL PROFICIENCIES**
 
-**Cloud Platforms:** AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda, EKS), GCP (GKE), Azure (AKS, VMSS), Hybrid & Multi-Cloud Integration
+**Platforms & Containers:** Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd, bare metal), Docker, Custom Operators, Internal Developer Platforms, Linux Internals
 
-**Infrastructure as Code & CI/CD:** Terraform (reusable module libraries), GitHub Actions, GitLab Pipelines, Jenkins, GitOps (Argo CD, Flux CD), Git & Pull-Request Workflows
+**Cloud:** AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid & Multi-Cloud Integration
 
-**Networking:** Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
+**Infrastructure as Code & Delivery:** Terraform at scale (reusable module libraries), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
 
-**Identity & Security:** SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, HashiCorp Vault (PKI), AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
+**Software & Automation:** Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)
 
-**Containers & Platforms:** Kubernetes (EKS, GKE, AKS, self-managed control plane & etcd), Docker, Custom Operators, Internal Developer Platforms
+**Identity & Security:** HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
 
-**Observability:** Splunk, Centralized Log Aggregation, Prometheus, Grafana, Fluentd, Elasticsearch
+**Networking:** Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
 
-**Languages & Automation:** Python (Boto3, Pandas), Go, Bash, PowerShell, SQL, Agentic Development (Claude Code, Codex)
+**Observability & Data:** Splunk, Prometheus, Grafana, Fluentd, Elasticsearch, Centralized Log Aggregation, PostgreSQL, MSSQL, High-Throughput Data Pipelines
 
 **PROFESSIONAL EXPERIENCE**
 
@@ -58,9 +58,11 @@ Cloud infrastructure and security engineer with 12+ years designing, automating,
 
 *Senior Software Engineer, Python/Data (Contract)* | 01/2025 – 04/2026
 
-* **Data-Intensive Analytics:** Built a backtesting platform and vectorized Monte Carlo engine that ran multi-dimensional parameter sweeps to validate trading algorithms.
+* **Backtesting Platform:** Developed a proprietary, multi-horizon analysis platform for a boutique trading desk, enabling rapid backtesting and validation of medium-frequency algorithms.
 
 </div>
+
+* **Data-Intensive Systems:** Engineered a vectorized Monte Carlo simulation engine to perform multi-dimensional parameter grid sweeps.
 
 <div style="break-inside: avoid;">
 
