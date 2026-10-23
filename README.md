@@ -56,9 +56,9 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 ## 📁 Resume
 
-- 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume-Master.html)
-- 📄 **PDF:** [Ian-Douglas-Resume-Master.pdf](files/Ian-Douglas-Resume-Master.pdf)
-- 📝 **Markdown:** [Ian-Douglas-Resume-Master.md](files/Ian-Douglas-Resume-Master.md)
+- 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume.html)
+- 📄 **PDF:** [Ian-Douglas-Resume.pdf](files/Ian-Douglas-Resume.pdf)
+- 📝 **Markdown:** [Ian-Douglas-Resume.md](files/Ian-Douglas-Resume.md)
 
 ---
 
