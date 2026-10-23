@@ -1,8 +1,8 @@
 # **Ian Douglas**
 
-**Senior Platform Engineer | Security Architect**
+**Senior Platform Engineer | Cloud & Security Architect**
 
-Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical and flagship services across Kubernetes, AWS, Azure, GCP, and bare metal. Builds self-service platforms, reusable Terraform modules, and Go and Python automation that turn manual operations into pipelines. Deep experience managing the full lifecycle of identity and secrets infrastructure, including the tooling for day-two operations.
+Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.
 
 
 - [🛠️ Projects](#️-projects)
@@ -18,7 +18,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 ### ☸️ Kubernetes / Infrastructure-as-Code
 
-- 🔷 **[Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)** *Kubernetes clusters à la carte: a radically simple Terraform UI for orchestrating even the most complex cluster configurations.*
+- 🔷 **[Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)** *Kubernetes clusters à la carte: a radically simple Terraform UI for orchestrating even the most complex cluster configurations, with fleet-scale GitOps bootstrap.*
 
 - 🔷 **[Varlink](https://github.com/iancaseydouglas/varlink)** *Go-based CLI for streamlining Terraform IaC via hierarchical inheritance; designed for both interactive local development and automated CI/CD pipelines.*
 
@@ -26,7 +26,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 ### 🛡️ Security / Identity
 
-- 🔷 **[Modernizing Identity Perimeters](files/new_directions_in_AD.pdf)** *A reference architecture for zero-trust identity fabrics via peer-to-peer IPv6 IPsec mesh. Developed for Stanford IT's Core Infrastructure cloud initiative to deliver encrypted Domain Services across thousands of VPCs with overlapping CIDR blocks.*
+- 🔷 **[Modernizing Identity Perimeters](files/new_directions_in_AD.pdf)** *A reference architecture for zero-trust identity fabrics via peer-to-peer IPv6 IPsec mesh. Developed for Stanford IT's Core Infrastructure cloud initiative to deliver encrypted Domain Services across thousands of VPCs with overlapping CIDR blocks; domain controllers stay invisible until IPsec is established.*
 
 - 🔷 **[Cloud-Native Identity Orchestration](https://github.com/iancaseydouglas/k8s-ldap)** *Partnered with Stanford IAM and Cloud teams to transition hierarchical LDAP services to K8s on EC2; implemented the stateful replication logic, automated DB restoration, and CI/CD pipelines.*
 
@@ -40,19 +40,25 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 ## ⚙️ Technical Proficiencies
 
-**Platform & Systems:** Managed K8s (EKS, AKS, GKE), Self-Managed Kubernetes (Control Plane, etcd, Bare-Metal), Software-Defined Infrastructure, Linux Internals, Hybrid/Multi-Cloud (AWS, Azure, GCP)
+**Platforms & Containers:** Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd, bare metal), Docker, Custom Operators, Versioned Platform Releases, Linux Internals
 
-**Software & Automation:** Go (Golang), Python (Pandas, Boto3), API-Driven Automation, Terraform at scale, GitOps (ArgoCD, Flux CD), CI/CD (GitHub Actions, GitLab Pipelines), Agentic Workflows (Claude Code, Codex), Bash, PowerShell
+**Cloud:** AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid & Multi-Cloud Integration
 
-**Security & Governance:** HashiCorp Vault (PKI), Policy-as-Code (OPA), Zero Trust Architecture, Identity Management (Azure Entra ID, AWS IAM/PIM), Compliance Hardening
+**Infrastructure as Code & Delivery:** Terraform at scale (à la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
 
-**Observability & Data:** Prometheus, Grafana, Distributed Logging (Fluentd, Elasticsearch), PostgreSQL, MSSQL, High-Throughput Data Pipelines
+**Software & Automation:** Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)
+
+**Identity & Security:** HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
+
+**Networking:** Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
+
+**Observability & Data:** Splunk, Prometheus, Grafana, Fluentd, Elasticsearch, Centralized Log Aggregation, PostgreSQL, MSSQL, High-Throughput Data Pipelines
 
 ## 📁 Resume
 
-- 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume.html)
-- 📄 **PDF:** [Ian-Douglas-Resume.pdf](files/Ian-Douglas-Resume.pdf)
-- 📝 **Markdown:** [Ian-Douglas-Resume.md](files/Ian-Douglas-Resume.md)
+- 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume-Master.html)
+- 📄 **PDF:** [Ian-Douglas-Resume-Master.pdf](files/Ian-Douglas-Resume-Master.pdf)
+- 📝 **Markdown:** [Ian-Douglas-Resume-Master.md](files/Ian-Douglas-Resume-Master.md)
 
 ---
 
