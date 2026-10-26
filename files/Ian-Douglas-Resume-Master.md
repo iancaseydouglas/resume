@@ -7,15 +7,15 @@
 
 **PROFESSIONAL SUMMARY**
 
-Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical and flagship services across Kubernetes, AWS, Azure, GCP, and bare metal. Builds self-service platforms, reusable Terraform modules, and Go and Python automation that turn manual operations into pipelines. Deep experience managing the full lifecycle of identity and secrets infrastructure, including the tooling for day-two operations.
+Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.
 
 **TECHNICAL PROFICIENCIES**
 
-**Platforms & Containers:** Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd, bare metal), Docker, Custom Operators, Internal Developer Platforms, Linux Internals
+**Platforms & Containers:** Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd, bare metal), Docker, Custom Operators, Versioned Platform Releases, Linux Internals
 
 **Cloud:** AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid & Multi-Cloud Integration
 
-**Infrastructure as Code & Delivery:** Terraform at scale (reusable module libraries), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
+**Infrastructure as Code & Delivery:** Terraform at scale (à la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
 
 **Software & Automation:** Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)
 
@@ -70,7 +70,8 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 *Senior Platform Engineer* | 04/2024 – 12/2024
 
-* **Golden Path Modules:** Architected reusable Terraform libraries for AKS and VMSS, establishing a standard path for compliant, self-service infrastructure provisioning.
+* **À La Carte-as-Code:** Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
+* **Fleet GitOps:** Designed the Flux repository hierarchy and cluster bootstrap for the commercial platform.
 
 </div>
 
@@ -78,7 +79,6 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 * **Cloud Networking:** Designed Azure network connectivity for client environments, including VNet peering, site-to-site VPN, and hub transit routing.
 * **Cost Optimization:** Rightsized and tuned Azure infrastructure to meet client cost requirements.
 * **Documentation & Runbooks:** Wrote implementation guides and operational runbooks for client handoff and internal teams.
-* **Developer Experience:** Built Go and Python tooling to automate GitOps workflows, increasing deployment velocity while reducing change failure rates.
 
 <div style="break-inside: avoid;">
 
@@ -90,6 +90,8 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 </div>
 
+* **Fleet GitOps:** Automated Flux across multi-project, multi-environment cluster fleets with Terraform, Go, and Python, increasing deployment velocity while reducing change failure rates.
+* **Cluster Hardening:** Built an automated audit framework enforcing CIS Benchmarks and Pod Security Standards ([Cluster Security Audit](https://github.com/iancaseydouglas/cluster-security-audit)).
 * **Secrets Management Architecture:** Designed least-privilege secrets management using SOPS, AWS KMS, and Shamir secret sharing.
 
 <div style="break-inside: avoid;">
@@ -116,7 +118,8 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 </div>
 
-* **Hybrid Active Directory Architecture:** Authored the reference architecture and Terraform code for Active Directory over IPv6 with transport-mode IPsec, certificate-based mutual authentication, and hybrid DNS, letting distributed teams in separate AWS VPCs join the domain securely without network peering or coordinated IP space; deployed through UAT into a small production footprint.
+* **Zero-Trust Active Directory:** Architected AD whose domain controllers stay invisible until clients establish IPsec with ephemeral Vault certificates ([paper](https://github.com/iancaseydouglas/resume/blob/main/files/new_directions_in_AD.pdf)).
+* **Self-Service Cloud Identity:** Shipped it to production in Terraform over IPv6, so any VPC could join without IP coordination, peering, or NAT/Transit Gateway costs; scales to thousands of VPCs.
 * **Hybrid Cloud Networking:** Built connectivity between on-premises infrastructure and AWS using Transit Gateway, site-to-site VPN, and VPC peering.
 * **Multi-Account & Multi-Cloud:** Operated AWS Organizations multi-account environments and supported the university's growing GKE footprint alongside self-hosted Kubernetes.
 * **Secrets Infrastructure:** Managed multi-tenant HashiCorp Vault clusters providing automated PKI, authentication proxies, and encryption as part of a three-person team.

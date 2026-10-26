@@ -14,7 +14,7 @@ Dear [Hiring Manager Name],
 
 I'm a platform and security engineer with 12+ years building secure, code-driven infrastructure across Kubernetes, AWS, Azure, GCP, and bare metal. I'm applying for the [Role Title] role because [one sentence on what draws you to this team or problem].
 
-**Platforms as software.** I ship Kubernetes platforms as versioned releases through Git-driven automation. At ZagTech I created à la carte-as-code, a radically simple Terraform design for ordering complex clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)), and automated Flux across multi-project, multi-environment cluster fleets. At Invitae I did the same for a petabyte-scale genomics platform.
+**Platforms as software.** I ship Kubernetes platforms as versioned releases through Git-driven automation. At ZagTech I created à la carte-as-code, a radically simple Terraform design for ordering complex clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)). At Invitae I automated Flux across multi-project, multi-environment cluster fleets for a petabyte-scale genomics platform.
 
 **Automation that removes toil.** At The Motley Fool I wrote Python tooling that migrated about 200 repositories from Jenkins to GitHub Actions, saving months of manual effort.
 

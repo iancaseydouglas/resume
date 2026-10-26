@@ -71,7 +71,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 *Senior Platform Engineer* | 04/2024 – 12/2024
 
 * **À La Carte-as-Code:** Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
-* **Fleet GitOps:** Automated Flux across multi-project, multi-environment cluster fleets with Terraform, Go, and Python, increasing deployment velocity while reducing change failure rates.
+* **Fleet GitOps:** Designed the Flux repository hierarchy and cluster bootstrap for the commercial platform.
 
 </div>
 
@@ -90,7 +90,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 </div>
 
-* **Fleet GitOps:** Designed the Flux repository hierarchy and cluster bootstrap for the genomics platform.
+* **Fleet GitOps:** Automated Flux across multi-project, multi-environment cluster fleets with Terraform, Go, and Python, increasing deployment velocity while reducing change failure rates.
 * **Cluster Hardening:** Built an automated audit framework enforcing CIS Benchmarks and Pod Security Standards ([Cluster Security Audit](https://github.com/iancaseydouglas/cluster-security-audit)).
 * **Secrets Management Architecture:** Designed least-privilege secrets management using SOPS, AWS KMS, and Shamir secret sharing.
 

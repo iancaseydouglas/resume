@@ -369,11 +369,11 @@ code {
 <p><strong>Senior Platform Engineer | Cloud &amp; Security Architect</strong></p>
 <p>303-335-9358 | <a href="mailto:iancasey.douglas@gmail.com">iancasey.douglas@gmail.com</a> | <a href="https://github.com/iancaseydouglas/resume">github.com/iancaseydouglas</a></p>
 <p><strong>PROFESSIONAL SUMMARY</strong></p>
-<p>Platform and security engineer with 12+ years delivering secure, code-driven infrastructure across AWS, Azure, GCP, Kubernetes, and bare metal. Builds self-service internal platforms, reusable Terraform modules, GitOps delivery, and Go and Python tooling that shrink months of manual work into automated pipelines. Deep experience running identity and secrets infrastructure end to end, from moving Stanford's authentication stack (SAML/Shibboleth, Kerberos, OpenLDAP) onto Kubernetes to operating multi-tenant Vault PKI, and supporting research-scale workloads from petabyte-scale genomics to high-performance compute fleets.</p>
+<p>Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.</p>
 <p><strong>TECHNICAL PROFICIENCIES</strong></p>
-<p><strong>Platforms &amp; Containers:</strong> Kubernetes (EKS, AKS, GKE, self-managed control plane &amp; etcd, bare metal), Docker, Custom Operators, Internal Developer Platforms, Linux Internals</p>
+<p><strong>Platforms &amp; Containers:</strong> Kubernetes (EKS, AKS, GKE, self-managed control plane &amp; etcd, bare metal), Docker, Custom Operators, Versioned Platform Releases, Linux Internals</p>
 <p><strong>Cloud:</strong> AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid &amp; Multi-Cloud Integration</p>
-<p><strong>Infrastructure as Code &amp; Delivery:</strong> Terraform at scale (reusable module libraries), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git &amp; Pull-Request Workflows</p>
+<p><strong>Infrastructure as Code &amp; Delivery:</strong> Terraform at scale (à la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git &amp; Pull-Request Workflows</p>
 <p><strong>Software &amp; Automation:</strong> Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)</p>
 <p><strong>Identity &amp; Security:</strong> HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design</p>
 <p><strong>Networking:</strong> Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates &amp; PKI</p>
@@ -414,7 +414,8 @@ code {
 <p><strong>ZagTech</strong> | San Jose, CA (Remote)</p>
 <p><em>Senior Platform Engineer</em> | 04/2024 – 12/2024</p>
 <ul>
-<li><strong>Golden Path Modules:</strong> Architected reusable Terraform libraries for AKS and VMSS, establishing a standard path for compliant, self-service infrastructure provisioning.</li>
+<li><strong>À La Carte-as-Code:</strong> Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu (<a href="https://github.com/iancaseydouglas/kates-kitchen">Kate's Kitchen</a>).</li>
+<li><strong>Fleet GitOps:</strong> Designed the Flux repository hierarchy and cluster bootstrap for the commercial platform.</li>
 </ul>
 </div>
 <ul>
@@ -422,7 +423,6 @@ code {
 <li><strong>Cloud Networking:</strong> Designed Azure network connectivity for client environments, including VNet peering, site-to-site VPN, and hub transit routing.</li>
 <li><strong>Cost Optimization:</strong> Rightsized and tuned Azure infrastructure to meet client cost requirements.</li>
 <li><strong>Documentation &amp; Runbooks:</strong> Wrote implementation guides and operational runbooks for client handoff and internal teams.</li>
-<li><strong>Developer Experience:</strong> Built Go and Python tooling to automate GitOps workflows, increasing deployment velocity while reducing change failure rates.</li>
 </ul>
 <div style="break-inside: avoid;">
 <p><strong>Invitae Biosciences</strong> | San Francisco, CA (Remote)</p>
@@ -432,6 +432,8 @@ code {
 </ul>
 </div>
 <ul>
+<li><strong>Fleet GitOps:</strong> Automated Flux across multi-project, multi-environment cluster fleets with Terraform, Go, and Python, increasing deployment velocity while reducing change failure rates.</li>
+<li><strong>Cluster Hardening:</strong> Built an automated audit framework enforcing CIS Benchmarks and Pod Security Standards (<a href="https://github.com/iancaseydouglas/cluster-security-audit">Cluster Security Audit</a>).</li>
 <li><strong>Secrets Management Architecture:</strong> Designed least-privilege secrets management using SOPS, AWS KMS, and Shamir secret sharing.</li>
 </ul>
 <div style="break-inside: avoid;">
@@ -454,7 +456,8 @@ code {
 </ul>
 </div>
 <ul>
-<li><strong>Hybrid Active Directory Architecture:</strong> Authored the reference architecture and Terraform code for Active Directory over IPv6 with transport-mode IPsec, certificate-based mutual authentication, and hybrid DNS, letting distributed teams in separate AWS VPCs join the domain securely without network peering or coordinated IP space; deployed through UAT into a small production footprint.</li>
+<li><strong>Zero-Trust Active Directory:</strong> Architected AD whose domain controllers stay invisible until clients establish IPsec with ephemeral Vault certificates (<a href="https://github.com/iancaseydouglas/resume/blob/main/files/new_directions_in_AD.pdf">paper</a>).</li>
+<li><strong>Self-Service Cloud Identity:</strong> Shipped it to production in Terraform over IPv6, so any VPC could join without IP coordination, peering, or NAT/Transit Gateway costs; scales to thousands of VPCs.</li>
 <li><strong>Hybrid Cloud Networking:</strong> Built connectivity between on-premises infrastructure and AWS using Transit Gateway, site-to-site VPN, and VPC peering.</li>
 <li><strong>Multi-Account &amp; Multi-Cloud:</strong> Operated AWS Organizations multi-account environments and supported the university's growing GKE footprint alongside self-hosted Kubernetes.</li>
 <li><strong>Secrets Infrastructure:</strong> Managed multi-tenant HashiCorp Vault clusters providing automated PKI, authentication proxies, and encryption as part of a three-person team.</li>
