@@ -8,6 +8,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 - [🛠️ Projects](#️-projects)
   - [☸️ Kubernetes / Infrastructure-as-Code](#️-kubernetes--infrastructure-as-code)
   - [🛡️ Security / Identity](#️-security--identity)
+  - [📊 Data / AI Engineering](#-data--ai-engineering)
   - [🌲 Personal / Passion Projects](#-personal--passion-projects)
 - [⚙️ Technical Proficiencies](#️-technical-proficiencies)
 - [📁 Resume](#-resume)
@@ -29,6 +30,12 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 - 🔷 **[Modernizing Identity Perimeters](files/new_directions_in_AD.pdf)** *A reference architecture for zero-trust identity fabrics via peer-to-peer IPv6 IPsec mesh. Developed for Stanford IT's Core Infrastructure cloud initiative to deliver encrypted Domain Services across thousands of VPCs with overlapping CIDR blocks; domain controllers stay invisible until IPsec is established.*
 
 - 🔷 **[Cloud-Native Identity Orchestration](https://github.com/iancaseydouglas/k8s-ldap)** *Partnered with Stanford IAM and Cloud teams to transition hierarchical LDAP services to K8s on EC2; implemented the stateful replication logic, automated DB restoration, and CI/CD pipelines.*
+
+### 📊 Data / AI Engineering
+
+- 🔷 **[Dataset Pipeline](https://github.com/iancaseydouglas/dataset_pipeline)** *Config-driven pipeline turning DataBento futures data into optimized Parquet for large-scale backtesting sweeps; switch instruments, date ranges, or environments without code changes.*
+
+- 🔷 **[Context Forge](https://github.com/iancaseydouglas/context-forge)** *Functional pipeline that shrinks codebases by role (full, stubbed, compressed), merges them into one XML context, and caches it in Gemini so coding assistants can write against large libraries without reading their source.*
 
 ### 🌲 Personal / Passion Projects
 
