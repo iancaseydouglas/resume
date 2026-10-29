@@ -70,7 +70,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 *Senior Platform Engineer* | 04/2024 – 12/2024
 
-* **À La Carte-as-Code:** Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
+* **Clusters A La Carte:** Created a novel Terraform design where the most complex enterprise AKS cluster is as simple to declare as the most basic ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
 * **Fleet GitOps:** Designed the Flux repository hierarchy and cluster bootstrap for the commercial platform.
 
 </div>
@@ -82,7 +82,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 <div style="break-inside: avoid;">
 
-**Invitae Biosciences** | San Francisco, CA (Remote)
+**Invitae Biosciences** (acquired by Labcorp) | San Francisco, CA (Remote)
 
 *Senior Platform Engineer* | 07/2023 – 04/2024
 
@@ -131,11 +131,14 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 *DevOps Engineer* | 06/2014 – 12/2015
 
-* **Cluster Ops Tooling:** Built PowerShell and SQL Server Management Objects (SMO) tooling to automate database operations and co-developed cluster operations tools for a flagship MMO with 40k+ daily active users, cutting service drain times by 93%.
+* **Game Cluster Operations:** Ran production clusters for a flagship MMO with 40k+ daily users and twice-weekly releases.
 
 </div>
 
-* **Observability at Scale:** Operated large metrics and log aggregation servers for production game infrastructure.
+* **Cluster Ops Tooling:** Automated SQL Server operations with PowerShell and SMO, and co-developed cluster management tools that cut service drain times by 93%.
+* **Bare-Metal Fleet:** Owned hundreds of Windows and Linux servers, from PXE to production.
+* **Identity:** Operated identity infrastructure for internal corporate users and external game clients.
+* **Observability:** Managed ELK and metrics aggregation for production game services.
 
 <div style="break-inside: avoid;">
 
