@@ -11,19 +11,21 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 **TECHNICAL PROFICIENCIES**
 
-**Platforms & Containers:** Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd, bare metal), Docker, Custom Operators, Versioned Platform Releases, Linux Internals
+**Platforms & Containers**: Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd, bare metal), Docker, Custom Operators, Versioned Platform Releases, Linux Internals
 
-**Cloud:** AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid & Multi-Cloud Integration
+**Cloud**: AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid & Multi-Cloud Integration
 
-**Infrastructure as Code & Delivery:** Terraform at scale (à la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
+**Infrastructure as Code & Delivery**: Terraform at scale (à la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
 
-**Software & Automation:** Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)
+**Software & Automation**: Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)
 
-**Identity & Security:** HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
+**Identity & Security**: HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
 
-**Networking:** Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
+**Networking**: Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
 
-**Observability & Data:** Splunk, Prometheus, Grafana, Fluentd, Elasticsearch, Centralized Log Aggregation, PostgreSQL, MSSQL, High-Throughput Data Pipelines
+**Databases & Messaging**: Amazon RDS, PostgreSQL, SQL Server, Redis, Memcached, MongoDB, DynamoDB, Cassandra, Kafka, High-Throughput Data Pipelines
+
+**Observability**: Splunk, Prometheus, Grafana, Fluentd, Elasticsearch, Centralized Log Aggregation
 
 **PROFESSIONAL EXPERIENCE**
 
@@ -70,7 +72,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 *Senior Platform Engineer* | 04/2024 – 12/2024
 
-* **Clusters A La Carte:** Created a novel Terraform design where the most complex enterprise AKS cluster is as simple to declare as the most basic ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
+* **À La Carte-as-Code:** Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
 * **Fleet GitOps:** Designed the Flux repository hierarchy and cluster bootstrap for the commercial platform.
 
 </div>
@@ -82,7 +84,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 <div style="break-inside: avoid;">
 
-**Invitae Biosciences** (acquired by Labcorp) | San Francisco, CA (Remote)
+**Invitae Biosciences** | San Francisco, CA (Remote)
 
 *Senior Platform Engineer* | 07/2023 – 04/2024
 
@@ -131,14 +133,11 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 *DevOps Engineer* | 06/2014 – 12/2015
 
-* **Game Cluster Operations:** Ran production clusters for a flagship MMO with 40k+ daily users and twice-weekly releases.
+* **Cluster Ops Tooling:** Built PowerShell and SQL Server Management Objects (SMO) tooling to automate database operations and co-developed cluster operations tools for the flagship MMO with 40k+ daily active users and twice weekly deployment cadence. 
 
 </div>
 
-* **Cluster Ops Tooling:** Automated SQL Server operations with PowerShell and SMO, and co-developed cluster management tools that cut service drain times by 93%.
-* **Bare-Metal Fleet:** Owned hundreds of Windows and Linux servers, from PXE to production.
-* **Identity:** Operated identity infrastructure for internal corporate users and external game clients.
-* **Observability:** Managed ELK and metrics aggregation for production game services.
+* **Observability at Scale:** Operated large metrics and log aggregation servers for production game infrastructure.
 
 <div style="break-inside: avoid;">
 
