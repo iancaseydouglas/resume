@@ -19,7 +19,9 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 ### ☸️ Kubernetes / Infrastructure-as-Code
 
-- 🔷 **[Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)** *Kubernetes clusters à la carte: a radically simple Terraform UI for orchestrating even the most complex cluster configurations, with fleet-scale GitOps bootstrap.*
+- 🔷 **[Pearson Kubernetes Platform](files/bitesize/transforming-the-worlds-largest-education-company-with-kubernetes.md)** *Continuous delivery of platform-as-a-product: self-managed Kubernetes on AWS for 400 development teams, proven under 8.5M concurrent users at sub-250 ms. Fourteen independently versioned components, promoted through eight clusters to two production regions; releases went from 1–2 a year to several a day. ([PDF](files/bitesize/transforming-the-worlds-largest-education-company-with-kubernetes.pdf))*
+
+- 🔷 **[Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)** *Kubernetes clusters a la carte: a radically simple Terraform UI for orchestrating even the most complex cluster configurations, with fleet-scale GitOps bootstrap.*
 
 - 🔷 **[Varlink](https://github.com/iancaseydouglas/varlink)** *Go-based CLI for streamlining Terraform IaC via hierarchical inheritance; designed for both interactive local development and automated CI/CD pipelines.*
 
@@ -51,7 +53,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 **Cloud**: AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid & Multi-Cloud Integration
 
-**Infrastructure as Code & Delivery**: Terraform at scale (à la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
+**Infrastructure as Code & Delivery**: Terraform at scale (a la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
 
 **Software & Automation**: Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)
 
@@ -67,6 +69,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 - 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume.html)
 - 📄 **PDF:** [Ian-Douglas-Resume.pdf](files/Ian-Douglas-Resume.pdf)
+- 📃 **Word:** [Ian-Douglas-Resume.docx](files/Ian-Douglas-Resume.docx)
 - 📝 **Markdown:** [Ian-Douglas-Resume.md](files/Ian-Douglas-Resume.md)
 
 ---
