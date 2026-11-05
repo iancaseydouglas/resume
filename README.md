@@ -23,7 +23,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 - 🔷 **[Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)** *Kubernetes clusters a la carte: a radically simple Terraform UI for orchestrating even the most complex cluster configurations, with fleet-scale GitOps bootstrap.*
 
-- 🔷 **[Varlink](https://github.com/iancaseydouglas/varlink)** *Go-based CLI for streamlining Terraform IaC via hierarchical inheritance; designed for both interactive local development and automated CI/CD pipelines.*
+- 🔷 **[tfv](https://github.com/iancaseydouglas/tfvars-tools)** *Go-based CLI for streamlining Terraform IaC via hierarchical inheritance; designed for both interactive local development and automated CI/CD pipelines.*
 
 - 🔷 **[Cluster Security Audit](https://github.com/iancaseydouglas/cluster-security-audit)** *Automated framework for K8s posture assessment and production hardening of petabyte-scale genomics data flows; enforces CIS Benchmarks and Pod Security Standards for Day Zero compliance.*
 
