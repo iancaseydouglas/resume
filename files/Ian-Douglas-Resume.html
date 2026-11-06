@@ -1,259 +1,119 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Ian Douglas Resume</title>
-  <style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-
-ul.task-list[class]{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-font-size: inherit;
-width: 0.8em;
-margin: 0 0.8em 0.2em -1.6em;
-vertical-align: middle;
-}
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: Letter; }
+html, body { margin:0; padding:0; background:#fff; }
+body { font-family: "Liberation Sans", Arial, Helvetica, sans-serif; font-size:11.0pt; line-height:1.32; color:#000; }
+h1 { font-size:27.5pt; font-weight:700; margin:0 0 2pt 0; }
+h1 + p { font-size:12.1pt; font-weight:700; margin:0 0 3pt 0; }
+h1 + p + p { margin:0 0 4pt 0; }
+h2 { font-size:12.1pt; font-weight:700; text-transform:uppercase; letter-spacing:1.4px; margin:9.9pt 0 4.4pt 0; }
+h3 { font-size:11.2pt; font-weight:700; margin:6.6pt 0 0 0; }
+h3 + p { font-style:italic; margin:0 0 2.2pt 0; }
+p { margin:0 0 3.8pt 0; }
+ul { margin:2.2pt 0 0 0; padding-left:15.4pt; }
+li { margin:0 0 1.3pt 0; }
+a { color:#000; text-decoration:underline; }
 </style>
-  <style type="text/css">@page { size: Letter; margin: 0.5in 0.55in 0.6in; }
-html { font-family: "Liberation Sans", Arial, Helvetica, sans-serif; font-size: 9.8pt; line-height: 1.36; color: #000; background: #fff;
-font-variant-ligatures: none; }
-body { max-width: 7.6in; margin: 0 auto; padding: 24px 16px; }
-@media print { body { padding: 0; max-width: none; } }
-a { color: #000; text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline-offset: 1.5pt; }
-h1 { font-size: 22pt; font-weight: 700; margin: 0 0 4pt; }
-h1 + p { font-size: 11pt; font-weight: 700; margin: 0 0 2pt; }
-h1 + p + p { font-size: 9.5pt; margin: 0 0 8pt; }
-h2 { font-size: 10.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin: 13pt 0 4pt; break-after: avoid; }
-h3 { font-size: 10.2pt; font-weight: 700; margin: 7pt 0 0; break-after: avoid; }
-h3 + p { margin: 0 0 3pt; font-size: 9.5pt; break-after: avoid; }
-p { margin: 0 0 5pt; }
-ul { margin: 0 0 4pt; padding-left: 14pt; }
-li { margin: 0 0 2.5pt; break-inside: avoid; }
-li, p { orphans: 2; widows: 2; }
-strong { font-weight: 700; }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@media screen {
+  body { max-width: 8.5in; margin: 0.6in auto; padding: 0 0.6in; box-sizing: border-box; background:#fff; }
+}
+@media (max-width: 640px) {
+  body { padding: 0 16px; margin: 16px 0; font-size: 10pt; }
+}
 </style>
 </head>
-<body>
-<h1 id="ian-douglas">Ian Douglas</h1>
-<p><strong>Senior Platform Engineer | Cloud &amp; Security
-Architect</strong></p>
-<p>303-335-9358 | <a href="mailto:iancaseydouglas@gmail.com"><span>iancaseydouglas@gmail.com</span></a>
-| <a href="https://github.com/iancaseydouglas/resume">github.com/iancaseydouglas</a></p>
-<h2 id="professional-summary">Professional Summary</h2>
-<p>Platform and security engineer with 12+ years delivering secure,
-code-driven infrastructure for mission-critical services across
-Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as
-versioned releases through Git-driven automation. Deep experience across
-the full lifecycle of identity and secrets infrastructure.</p>
-<h2 id="technical-proficiencies">Technical Proficiencies</h2>
-<p><strong>Platforms &amp; Containers</strong>: Kubernetes (EKS, AKS,
-GKE, self-managed control plane &amp; etcd, bare metal), Docker, Custom
-Operators, Versioned Platform Releases, Linux Internals</p>
-<p><strong>Cloud</strong>: AWS (Organizations, multi-account, EC2, VPC,
-Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure
-(AKS, VMSS, Entra ID), GCP (GKE), Hybrid &amp; Multi-Cloud
-Integration</p>
-<p><strong>Infrastructure as Code &amp; Delivery</strong>: Terraform at
-scale (a la carte-as-code module design), GitOps (Argo CD, Flux CD),
-GitHub Actions, GitLab Pipelines, Jenkins, Git &amp; Pull-Request
-Workflows</p>
-<p><strong>Software &amp; Automation</strong>: Go (Golang), Python
-(Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic
-Development (Claude Code, Codex)</p>
-<p><strong>Identity &amp; Security</strong>: HashiCorp Vault (PKI),
-SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft
-Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207
-Zero Trust, Least-Privilege Design</p>
-<p><strong>Networking</strong>: Hybrid Connectivity, Transit Gateway,
-Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls,
-Certificates &amp; PKI</p>
-<p><strong>Databases &amp; Messaging</strong>: Amazon RDS, PostgreSQL,
-SQL Server, Redis, Memcached, MongoDB, DynamoDB, Cassandra, Kafka,
-High-Throughput Data Pipelines</p>
-<p><strong>Observability</strong>: Splunk, Prometheus, Grafana, Fluentd,
-Elasticsearch, Centralized Log Aggregation</p>
-<h2 id="professional-experience">Professional Experience</h2>
-<h3 id="the-motley-fool--alexandria-va-remote">The Motley Fool |
-Alexandria, VA (Remote)</h3>
+<body><h1>Ian Douglas</h1>
+<p><strong>Senior Platform Engineer | Cloud &amp; Security Architect</strong></p>
+<p>303-335-9358 | <a href="mailto:iancaseydouglas@gmail.com">iancaseydouglas@gmail.com</a> | <a href="https://github.com/iancaseydouglas/resume">github.com/iancaseydouglas</a></p>
+<h2>Professional Summary</h2>
+<p>Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.</p>
+<h2>Technical Proficiencies</h2>
+<p><strong>Platforms &amp; Containers</strong>: Kubernetes (EKS, AKS, GKE, self-managed control plane &amp; etcd, bare metal), Docker, Custom Operators, Versioned Platform Releases, Linux Internals</p>
+<p><strong>Cloud</strong>: AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid &amp; Multi-Cloud Integration</p>
+<p><strong>Infrastructure as Code &amp; Delivery</strong>: Terraform at scale (a la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git &amp; Pull-Request Workflows</p>
+<p><strong>Software &amp; Automation</strong>: Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)</p>
+<p><strong>Identity &amp; Security</strong>: HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design</p>
+<p><strong>Networking</strong>: IPv6, cert-authenticated IPsec mesh (IKEv2, transport, NAT-T), BGP, VPC/VNet (multi-CIDR, Transit Gateway, peering, VPN), DNS (delegation, SRV, split-horizon), Zero Trust Domain Isolation</p>
+<p><strong>Databases &amp; Messaging</strong>: Amazon RDS, PostgreSQL, SQL Server, Redis, Memcached, MongoDB, DynamoDB, Cassandra, Kafka, High-Throughput Data Pipelines</p>
+<p><strong>Observability</strong>: Splunk, Prometheus, Grafana, Fluentd, Elasticsearch, Centralized Log Aggregation</p>
+<h2>Professional Experience</h2>
+<h3>The Motley Fool | Alexandria, VA (Remote)</h3>
 <p><em>Senior Platform Engineer (Contract) | 04/2026 – Present</em></p>
 <ul>
-<li><strong>CI/CD Migration Automation:</strong> Built reusable Python
-tooling that migrated ~200 repositories from Jenkins to GitHub Actions,
-including moving secrets from AWS Secrets Manager to dotenvx, saving
-months of manual effort.</li>
-<li><strong>Cloud Infrastructure:</strong> Operate production AWS and
-Kubernetes infrastructure.</li>
-<li><strong>AI-Accelerated Engineering:</strong> Developed the migration
-toolchain with Claude Code agentic workflows, shipping production-grade
-automation in a fraction of the usual time.</li>
+<li><strong>CI/CD Migration Automation:</strong> Built reusable Python tooling that migrated ~200 repositories from Jenkins to GitHub Actions, including moving secrets from AWS Secrets Manager to dotenvx, saving months of manual effort.</li>
+<li><strong>Cloud Infrastructure:</strong> Operate production AWS and Kubernetes infrastructure.</li>
+<li><strong>AI-Accelerated Engineering:</strong> Developed the migration toolchain with Claude Code agentic workflows, shipping production-grade automation in a fraction of the usual time.</li>
 </ul>
-<h3 id="kings-mountain-security--palo-alto-ca-remote">Kings Mountain
-Security | Palo Alto, CA (Remote)</h3>
-<p><em>Co-Founder, DevSecOps Engineer &amp; Security Architect | 01/2025
-– Present</em></p>
+<h3>Kings Mountain Security | Palo Alto, CA (Remote)</h3>
+<p><em>Co-Founder, DevSecOps Engineer &amp; Security Architect | 01/2025 – Present</em></p>
 <ul>
-<li><strong>Zero Trust Architecture:</strong> Co-founded a security
-consultancy delivering Terraform-based &quot;Zero Trust Capability Packages&quot;
-modeled on NIST SP 800-207, turning security requirements into
-deployable guardrails and technical controls.</li>
-<li><strong>Compliance Automation:</strong> Developing Security-as-Code
-modules that automate DoD Zero Trust compliance across the
-infrastructure lifecycle.</li>
+<li><strong>Zero Trust Architecture:</strong> Co-founded a security consultancy delivering Terraform-based "Zero Trust Capability Packages" modeled on NIST SP 800-207, turning security requirements into deployable guardrails and technical controls.</li>
+<li><strong>Compliance Automation:</strong> Developing Security-as-Code modules that automate DoD Zero Trust compliance across the infrastructure lifecycle.</li>
 </ul>
-<h3 id="flowdelta-trading--boulder-co-remote">FlowDelta Trading |
-Boulder, CO (Remote)</h3>
-<p><em>Senior Software Engineer, Python/Data (Contract) | 01/2025 –
-04/2026</em></p>
+<h3>FlowDelta Trading | Boulder, CO (Remote)</h3>
+<p><em>Senior Software Engineer, Python/Data (Contract) | 01/2025 – 04/2026</em></p>
 <ul>
-<li><strong>Backtesting Platform:</strong> Developed a proprietary,
-multi-horizon analysis platform for a boutique trading desk, enabling
-rapid backtesting and validation of medium-frequency algorithms.</li>
-<li><strong>Data-Intensive Systems:</strong> Engineered a vectorized
-Monte Carlo simulation engine to perform multi-dimensional parameter
-grid sweeps.</li>
+<li><strong>Backtesting Platform:</strong> Developed a proprietary, multi-horizon analysis platform for a boutique trading desk, enabling rapid backtesting and validation of medium-frequency algorithms.</li>
+<li><strong>Data-Intensive Systems:</strong> Engineered a vectorized Monte Carlo simulation engine to perform multi-dimensional parameter grid sweeps.</li>
 </ul>
-<h3 id="zagtech--san-jose-ca-remote">ZagTech | San Jose, CA
-(Remote)</h3>
+<h3>ZagTech | San Jose, CA (Remote)</h3>
 <p><em>Senior Platform Engineer (Contract) | 04/2024 – 12/2024</em></p>
 <ul>
-<li><strong>A La Carte-as-Code:</strong> Created a radically simple
-Terraform design for ordering complex Kubernetes clusters from a menu
-(<a href="https://github.com/iancaseydouglas/kates-kitchen">Kate&#39;s
-Kitchen</a>).</li>
-<li><strong>Fleet GitOps:</strong> Designed the Flux repository
-hierarchy and cluster bootstrap for the commercial platform.</li>
-<li><strong>Commercial Platform:</strong> Engineered a proprietary
-Kubernetes platform deployed across multiple enterprise clients; the
-codebase was a primary value driver in the firm&#39;s subsequent
-acquisition.</li>
-<li><strong>Cloud Networking:</strong> Designed Azure network
-connectivity for client environments, including VNet peering,
-site-to-site VPN, and hub transit routing.</li>
-<li><strong>Cost Optimization:</strong> Rightsized and tuned Azure
-infrastructure to meet client cost requirements.</li>
-<li><strong>Documentation &amp; Runbooks:</strong> Wrote implementation
-guides and operational runbooks for client handoff and internal
-teams.</li>
+<li><strong>Commercial Kubernetes Platform:</strong> Engineered a proprietary platform on Azure (AKS), deployed across multiple enterprise clients; the codebase was a primary value driver in the firm's subsequent acquisition.</li>
+<li><strong>Fleet GitOps:</strong> Designed the Flux repository hierarchy and cluster bootstrap for AKS fleets across the commercial platform.</li>
+<li><strong>Composable Terraform Design:</strong> Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu (<a href="https://github.com/iancaseydouglas/kates-kitchen">Kate's Kitchen</a>).</li>
+<li><strong>Cloud Networking:</strong> Designed Azure network connectivity for client environments, including VNet peering, site-to-site VPN, and hub transit routing.</li>
+<li><strong>Cost Optimization:</strong> Rightsized and tuned Azure infrastructure to meet client cost requirements.</li>
+<li><strong>Documentation &amp; Runbooks:</strong> Wrote implementation guides and operational runbooks for client handoff and internal teams.</li>
 </ul>
-<h3 id="invitae-biosciences--san-francisco-ca-remote">Invitae
-Biosciences | San Francisco, CA (Remote)</h3>
+<h3>Invitae Biosciences | San Francisco, CA (Remote)</h3>
 <p><em>Senior Platform Engineer | 07/2023 – 04/2024</em></p>
 <ul>
-<li><strong>Research Compute Platform:</strong> Built a self-service
-platform on self-managed Kubernetes on AWS EC2 for petabyte-scale
-genomics workloads; executed zero-downtime cluster upgrades and stateful
-migrations.</li>
-<li><strong>Fleet GitOps:</strong> Automated Flux across multi-project,
-multi-environment cluster fleets with Terraform, Go, and Python,
-increasing deployment velocity while reducing change failure rates.</li>
-<li><strong>Cluster Hardening:</strong> Built an automated audit
-framework enforcing CIS Benchmarks and Pod Security Standards (<a href="https://github.com/iancaseydouglas/cluster-security-audit">Cluster
-Security Audit</a>).</li>
-<li><strong>Secrets Management Architecture:</strong> Designed
-least-privilege secrets management using SOPS, AWS KMS, and Shamir
-secret sharing.</li>
+<li><strong>Research Compute Platform:</strong> Built a self-service platform on self-managed Kubernetes on AWS EC2 for petabyte-scale genomics workloads; executed zero-downtime cluster upgrades and stateful migrations.</li>
+<li><strong>Fleet GitOps:</strong> Automated Flux across multi-project, multi-environment cluster fleets with Terraform, Go, and Python, increasing deployment velocity while reducing change failure rates.</li>
+<li><strong>Cluster Hardening:</strong> Built an automated audit framework enforcing CIS Benchmarks and Pod Security Standards (<a href="https://github.com/iancaseydouglas/cluster-security-audit">Cluster Security Audit</a>).</li>
+<li><strong>Secrets Management Architecture:</strong> Designed least-privilege secrets management using SOPS, AWS KMS, and Shamir secret sharing.</li>
 </ul>
-<h3 id="pearson--london-uk-remote">Pearson | London, UK (Remote)</h3>
+<h3>Pearson | London, UK (Remote)</h3>
 <p><em>Senior Cloud Platforms Engineer | 09/2019 – 08/2021</em></p>
 <ul>
-<li><strong>Kubernetes Platform:</strong> Built and operated Bitesize,
-Pearson&#39;s self-managed Kubernetes platform on AWS (own control plane,
-etcd and Vault PKI), behind a unified API for 400 development teams;
-proven under 8.5M concurrent users at sub-250 ms, sized to grow Pearson
-from 75M to 200M learners; releases went from 1–2 a year to several a
-day (<a href="https://github.com/iancaseydouglas/resume/blob/main/files/bitesize/transforming-the-worlds-largest-education-company-with-kubernetes.pdf">case
-study</a>).</li>
-<li><strong>Platform as a Product:</strong> Delivered the platform
-continuously as 14 independently versioned components (Terraform,
-declarative Ansible, upstream Kubernetes images), composed into platform
-releases and promoted by 121 GitHub Actions jobs through eight clusters
-to two production regions, gated by tests, human approvals and automated
-ServiceNow changes.</li>
-<li><strong>Custom Kubernetes Operators:</strong> Co-developed Go-based
-operators and CRDs that provisioned AWS services such as VPCs and
-databases from self-managed Kubernetes on EC2, before AWS offered its
-own controllers.</li>
-<li><strong>Centralized Logging:</strong> Implemented log aggregation
-with a distributed pipeline (Fluentd, Python, AWS Lambda) feeding
-Elasticsearch and Splunk.</li>
-<li><strong>Platform Operations:</strong> Built and operated platform
-infrastructure across a multi-account AWS environment managed with AWS
-Organizations; contributed Terraform modules, database operations, and
-Vault CA and AWS certificate management.</li>
+<li><strong>Kubernetes Platform:</strong> Built and operated Bitesize, Pearson's self-managed Kubernetes platform on AWS (own control plane, etcd and Vault PKI), behind a unified API for 400 development teams; proven under 8.5M concurrent users at sub-250 ms, sized to grow Pearson from 75M to 200M learners; releases went from 1–2 a year to several a day (<a href="https://github.com/iancaseydouglas/resume/blob/main/files/bitesize/transforming-the-worlds-largest-education-company-with-kubernetes.pdf">case study</a>).</li>
+<li><strong>Platform as a Product:</strong> Delivered the platform continuously as 14 independently versioned components (Terraform, declarative Ansible, upstream Kubernetes images), composed into platform releases and promoted by 121 GitHub Actions jobs through eight clusters to two production regions, gated by tests, human approvals and automated ServiceNow changes.</li>
+<li><strong>Custom Kubernetes Operators:</strong> Co-developed Go-based operators and CRDs that provisioned AWS services such as VPCs and databases from self-managed Kubernetes on EC2, before AWS offered its own controllers.</li>
+<li><strong>Centralized Logging:</strong> Implemented log aggregation with a distributed pipeline (Fluentd, Python, AWS Lambda) feeding Elasticsearch and Splunk.</li>
+<li><strong>Platform Operations:</strong> Built and operated platform infrastructure across a multi-account AWS environment managed with AWS Organizations; contributed Terraform modules, database operations, and Vault CA and AWS certificate management.</li>
 </ul>
-<h3 id="stanford-university--palo-alto-ca">Stanford University | Palo
-Alto, CA</h3>
-<p><em>DevOps Engineer &amp; Security Architect | 12/2015 –
-09/2019</em></p>
+<h3>Stanford University | Palo Alto, CA</h3>
+<p><em>DevOps Engineer &amp; Security Architect | 12/2015 – 09/2019</em></p>
 <ul>
-<li><strong>Identity Modernization:</strong> Partnered with
-Infrastructure teams to move the university&#39;s authentication and
-authorization stack (SAML/Shibboleth SSO, Kerberos v5, OpenLDAP) from
-legacy servers onto Kubernetes.</li>
-<li><strong>Zero-Trust Active Directory:</strong> Architected AD whose
-domain controllers stay invisible until clients establish IPsec with
-ephemeral Vault certificates (<a href="https://github.com/iancaseydouglas/resume/blob/main/files/new_directions_in_AD.pdf">paper</a>).</li>
-<li><strong>Self-Service Cloud Identity:</strong> Shipped it to
-production in Terraform over IPv6, so any VPC could join without IP
-coordination, peering, or NAT/Transit Gateway costs; scales to thousands
-of VPCs.</li>
-<li><strong>Hybrid Cloud Networking:</strong> Built connectivity between
-on-premises infrastructure and AWS using Transit Gateway, site-to-site
-VPN, and VPC peering.</li>
-<li><strong>Multi-Account &amp; Multi-Cloud:</strong> Operated AWS
-Organizations multi-account environments and supported the university&#39;s
-growing GKE footprint alongside self-hosted Kubernetes.</li>
-<li><strong>Secrets Infrastructure:</strong> Managed multi-tenant
-HashiCorp Vault clusters providing automated PKI, authentication
-proxies, and encryption as part of a three-person team.</li>
-<li><strong>Security Monitoring:</strong> Integrated services with
-Splunk for centralized logging and security visibility.</li>
+<li><strong>Identity Modernization:</strong> Partnered with the IAM team to re-platform the authn/z stack (Heimdal, Shibboleth) onto Kubernetes: cloud-native patterns, Git-driven CI/CD, fully automated operations.</li>
+<li><strong>Stateful Services on Self-Managed Kubernetes:</strong> Containerized the university's primary identity store, OpenLDAP, as a Kubernetes service: master/replica StatefulSets, lifecycle automation, deployable cloud-side, on-prem, or standalone. It underpinned identity and access for all of Stanford.</li>
+<li><strong>Zero-Trust Active Directory:</strong> Authored the reference implementation for a cloud-resident Active Directory leveraging IPv6 and certificate-authenticated IPsec mesh networking for secure, boundary-less access (<a href="https://github.com/iancaseydouglas/resume/blob/main/files/new_directions_in_AD.pdf">paper</a>).</li>
+<li><strong>Cloud Transformation:</strong> Equipped infrastructure teams to migrate core services (Puppet and others) to the cloud, including GKE, delivering the IaC and CI/CD pipelines that made it repeatable.</li>
+<li><strong>Secrets Infrastructure:</strong> Ran multi-tenant HashiCorp Vault as part of a three-person team: automated PKI, auth proxies, encryption-as-a-service.</li>
 </ul>
-<h3 id="marvel-heroes-gazillion-entertainment--foster-city-ca">Marvel
-Heroes (Gazillion Entertainment) | Foster City, CA</h3>
+<h3>Marvel Heroes (Gazillion Entertainment) | Foster City, CA</h3>
 <p><em>DevOps Engineer | 06/2014 – 12/2015</em></p>
 <ul>
-<li><strong>Cluster Ops Tooling:</strong> Built PowerShell and SQL
-Server Management Objects (SMO) tooling to automate database operations
-and co-developed cluster operations tools for the flagship MMO with 40k+
-daily active users and twice weekly deployment cadence.</li>
-<li><strong>Observability at Scale:</strong> Operated large metrics and
-log aggregation servers for production game infrastructure.</li>
+<li><strong>Cluster Ops Tooling:</strong> Built PowerShell and SQL Server Management Objects (SMO) tooling to automate database operations and co-developed cluster operations tools for the flagship MMO with 40k+ daily active users and twice weekly deployment cadence.</li>
+<li><strong>Observability at Scale:</strong> Operated large metrics and log aggregation servers for production game infrastructure.</li>
 </ul>
-<h3 id="two-sigma--new-york-ny">Two Sigma | New York, NY</h3>
+<h3>Two Sigma | New York, NY</h3>
 <p><em>Systems Engineer | 05/2012 – 06/2014</em></p>
 <ul>
-<li><strong>High-Performance Fleet:</strong> Automated bare-metal
-provisioning and configuration management for high-performance servers
-supporting research and trading operations.</li>
-<li><strong>Lifecycle Automation:</strong> Orchestrated zero-touch
-deployment and lifecycle operations of 1,000+ secure workstations
-firm-wide.</li>
+<li><strong>High-Performance Fleet:</strong> Automated bare-metal provisioning and configuration management for high-performance servers supporting research and trading operations.</li>
+<li><strong>Lifecycle Automation:</strong> Orchestrated zero-touch deployment and lifecycle operations of 1,000+ secure workstations firm-wide.</li>
 </ul>
-<h3 id="columbia-university--new-york-ny">Columbia University | New
-York, NY</h3>
+<h3>Columbia University | New York, NY</h3>
 <p><em>Systems Engineer | 06/2010 – 05/2012</em></p>
 <ul>
-<li><strong>Infrastructure Operations:</strong> Ran databases, ESX,
-storage, and VM infrastructure supporting Columbia&#39;s 22 libraries.</li>
+<li><strong>Infrastructure Operations:</strong> Ran databases, ESX, storage, and VM infrastructure supporting Columbia's 22 libraries.</li>
 </ul>
-<h2 id="education">Education</h2>
-<h3 id="university-of-denver--denver-co">University of Denver | Denver,
-CO</h3>
-<p><em>Bachelor of Arts (BA), Double Major: Mathematics &amp;
-Philosophy</em></p>
+<h2>Education</h2>
+<h3>University of Denver | Denver, CO</h3>
+<p><em>Bachelor of Arts (BA), Double Major: Mathematics &amp; Philosophy</em></p>
 <ul>
-<li><strong>Mathematics:</strong> Completed Bachelor of Science
-curriculum including grad-level coursework.</li>
-<li><strong>Philosophy:</strong> Specialized in Formal Logic and
-Epistemology.</li>
-</ul>
-</body>
-</html>
+<li><strong>Mathematics:</strong> Completed Bachelor of Science curriculum including grad-level coursework.</li>
+<li><strong>Philosophy:</strong> Specialized in Formal Logic and Epistemology.</li>
+</ul></body></html>
