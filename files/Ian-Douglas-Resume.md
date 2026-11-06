@@ -20,7 +20,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 **Identity & Security**: HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
 
-**Networking**: Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
+**Networking**: IPv6, cert-authenticated IPsec mesh (IKEv2, transport, NAT-T), BGP, VPC/VNet (multi-CIDR, Transit Gateway, peering, VPN), DNS (delegation, SRV, split-horizon), Zero Trust Domain Isolation
 
 **Databases & Messaging**: Amazon RDS, PostgreSQL, SQL Server, Redis, Memcached, MongoDB, DynamoDB, Cassandra, Kafka, High-Throughput Data Pipelines
 
@@ -54,9 +54,9 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 *Senior Platform Engineer (Contract) | 04/2024 – 12/2024*
 
-- **A La Carte-as-Code:** Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
-- **Fleet GitOps:** Designed the Flux repository hierarchy and cluster bootstrap for the commercial platform.
-- **Commercial Platform:** Engineered a proprietary Kubernetes platform deployed across multiple enterprise clients; the codebase was a primary value driver in the firm's subsequent acquisition.
+- **Commercial Kubernetes Platform:** Engineered a proprietary platform on Azure (AKS), deployed across multiple enterprise clients; the codebase was a primary value driver in the firm's subsequent acquisition.
+- **Fleet GitOps:** Designed the Flux repository hierarchy and cluster bootstrap for AKS fleets across the commercial platform.
+- **Composable Terraform Design:** Created a radically simple Terraform design for ordering complex Kubernetes clusters from a menu ([Kate's Kitchen](https://github.com/iancaseydouglas/kates-kitchen)).
 - **Cloud Networking:** Designed Azure network connectivity for client environments, including VNet peering, site-to-site VPN, and hub transit routing.
 - **Cost Optimization:** Rightsized and tuned Azure infrastructure to meet client cost requirements.
 - **Documentation & Runbooks:** Wrote implementation guides and operational runbooks for client handoff and internal teams.
@@ -84,13 +84,11 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 *DevOps Engineer & Security Architect | 12/2015 – 09/2019*
 
-- **Identity Modernization:** Partnered with Infrastructure teams to move the university's authentication and authorization stack (SAML/Shibboleth SSO, Kerberos v5, OpenLDAP) from legacy servers onto Kubernetes.
-- **Zero-Trust Active Directory:** Architected AD whose domain controllers stay invisible until clients establish IPsec with ephemeral Vault certificates ([paper](https://github.com/iancaseydouglas/resume/blob/main/files/new_directions_in_AD.pdf)).
-- **Self-Service Cloud Identity:** Shipped it to production in Terraform over IPv6, so any VPC could join without IP coordination, peering, or NAT/Transit Gateway costs; scales to thousands of VPCs.
-- **Hybrid Cloud Networking:** Built connectivity between on-premises infrastructure and AWS using Transit Gateway, site-to-site VPN, and VPC peering.
-- **Multi-Account & Multi-Cloud:** Operated AWS Organizations multi-account environments and supported the university's growing GKE footprint alongside self-hosted Kubernetes.
-- **Secrets Infrastructure:** Managed multi-tenant HashiCorp Vault clusters providing automated PKI, authentication proxies, and encryption as part of a three-person team.
-- **Security Monitoring:** Integrated services with Splunk for centralized logging and security visibility.
+- **Identity Modernization:** Partnered with the IAM team to re-platform the authn/z stack (Heimdal, Shibboleth) onto Kubernetes: cloud-native patterns, Git-driven CI/CD, fully automated operations.
+- **Stateful Services on Self-Managed Kubernetes:** Containerized the university's primary identity store, OpenLDAP, as a Kubernetes service: master/replica StatefulSets, lifecycle automation, deployable cloud-side, on-prem, or standalone. It underpinned identity and access for all of Stanford.
+- **Zero-Trust Active Directory:** Authored the reference implementation for a cloud-resident Active Directory leveraging IPv6 and certificate-authenticated IPsec mesh networking for secure, boundary-less access ([paper](https://github.com/iancaseydouglas/resume/blob/main/files/new_directions_in_AD.pdf)).
+- **Cloud Transformation:** Equipped infrastructure teams to migrate core services (Puppet and others) to the cloud, including GKE, delivering the IaC and CI/CD pipelines that made it repeatable.
+- **Secrets Infrastructure:** Ran multi-tenant HashiCorp Vault as part of a three-person team: automated PKI, auth proxies, encryption-as-a-service.
 
 ### Marvel Heroes (Gazillion Entertainment) | Foster City, CA
 
