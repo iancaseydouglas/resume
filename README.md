@@ -1,9 +1,10 @@
-# **Ian Douglas**
+# **[Ian Douglas](files/Ian-Douglas-Resume.pdf)**
 
 **Senior Platform Engineer | Cloud & Security Architect**
 
-Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.
+📄 **[Download Resume (PDF)](files/Ian-Douglas-Resume.pdf)**
 
+Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.
 
 - [🛠️ Projects](#️-projects)
   - [☸️ Kubernetes / Infrastructure-as-Code](#️-kubernetes--infrastructure-as-code)
@@ -59,7 +60,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 **Identity & Security**: HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
 
-**Networking**: Hybrid Connectivity, Transit Gateway, Site-to-Site VPN, VPC/VNet Peering, Hybrid DNS, IPv6, IPsec, Firewalls, Certificates & PKI
+**Networking**: IPv6, cert-authenticated IPsec mesh (IKEv2, transport, NAT-T), BGP, VPC/VNet (multi-CIDR, Transit Gateway, peering, VPN), DNS (delegation, SRV, split-horizon), Zero Trust Domain Isolation
 
 **Databases & Messaging**: Amazon RDS, PostgreSQL, SQL Server, Redis, Memcached, MongoDB, DynamoDB, Cassandra, Kafka, High-Throughput Data Pipelines
 
@@ -67,9 +68,8 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 ## 📁 Resume
 
-- 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume.html)
 - 📄 **PDF:** [Ian-Douglas-Resume.pdf](files/Ian-Douglas-Resume.pdf)
-- 📃 **Word:** [Ian-Douglas-Resume.docx](files/Ian-Douglas-Resume.docx)
+- 🌐 **HTML:** [View in Browser](files/Ian-Douglas-Resume.html)
 - 📝 **Markdown:** [Ian-Douglas-Resume.md](files/Ian-Douglas-Resume.md)
 
 ---
