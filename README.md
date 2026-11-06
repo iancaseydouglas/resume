@@ -1,8 +1,8 @@
-# **[Ian Douglas](files/Ian-Douglas-Resume.pdf)**
+# **Ian Douglas**
 
 **Senior Platform Engineer | Cloud & Security Architect**
 
-📄 **[Download Resume (PDF)](files/Ian-Douglas-Resume.pdf)**
+**[***Download Resume (PDF)***](files/Ian-Douglas-Resume.pdf)**
 
 Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.
 
