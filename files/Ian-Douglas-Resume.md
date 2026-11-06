@@ -76,7 +76,7 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 - **Kubernetes Platform:** Built and operated Bitesize, Pearson's self-managed Kubernetes platform on AWS (own control plane, etcd and Vault PKI), behind a unified API for 400 development teams; proven under 8.5M concurrent users at sub-250 ms, sized to grow Pearson from 75M to 200M learners; releases went from 1–2 a year to several a day ([case study](https://github.com/iancaseydouglas/resume/blob/main/files/bitesize/transforming-the-worlds-largest-education-company-with-kubernetes.pdf)).
 - **Platform as a Product:** Delivered the platform continuously as 14 independently versioned components (Terraform, declarative Ansible, upstream Kubernetes images), composed into platform releases and promoted by 121 GitHub Actions jobs through eight clusters to two production regions, gated by tests, human approvals and automated ServiceNow changes.
-- **Custom Kubernetes Operators:** Co-developed Go-based operators and CRDs that provisioned AWS services such as VPCs and databases from self-managed Kubernetes on EC2, before AWS offered its own controllers.
+- **Custom Kubernetes Operators:** Co-developed Go-based operators and CRDs that provisioned AWS VPCs and databases from self-managed Kubernetes, before AWS offered its own controllers.
 - **Centralized Logging:** Implemented log aggregation with a distributed pipeline (Fluentd, Python, AWS Lambda) feeding Elasticsearch and Splunk.
 - **Platform Operations:** Built and operated platform infrastructure across a multi-account AWS environment managed with AWS Organizations; contributed Terraform modules, database operations, and Vault CA and AWS certificate management.
 
