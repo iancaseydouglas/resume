@@ -4,7 +4,7 @@
 
 **[***Download Resume (PDF)***](files/Ian-Douglas-Resume.pdf)**
 
-Platform and security engineer with 12+ years delivering secure, code-driven infrastructure for mission-critical services across Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through Git-driven automation. Deep experience across the full lifecycle of identity and secrets infrastructure.
+Platform and security engineer with 15+ years building secure, code-driven infrastructure on Kubernetes, AWS, Azure, GCP, and bare metal. Ships platforms as versioned releases through gated, Git-driven pipelines. Deep experience across the full lifecycle of identity and secrets infrastructure.
 
 - [🛠️ Projects](#️-projects)
   - [☸️ Kubernetes / Infrastructure-as-Code](#️-kubernetes--infrastructure-as-code)
@@ -50,21 +50,15 @@ Platform and security engineer with 12+ years delivering secure, code-driven inf
 
 ## ⚙️ Technical Proficiencies
 
-**Platforms & Containers**: Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd, bare metal), Docker, Custom Operators, Versioned Platform Releases, Linux Internals
+**Platforms & Cloud**: Kubernetes (EKS, AKS, GKE, self-managed control plane & etcd), Docker, Custom Operators; AWS (Organizations, EC2, VPC, IAM, KMS, Secrets Manager, Lambda); Azure (AKS, VNet, Entra ID); GCP (GKE)
 
-**Cloud**: AWS (Organizations, multi-account, EC2, VPC, Transit Gateway, Route 53, IAM, KMS, Secrets Manager, Lambda), Azure (AKS, VMSS, Entra ID), GCP (GKE), Hybrid & Multi-Cloud Integration
+**Identity & Security**: HashiCorp Vault (PKI), OpenLDAP, Kerberos v5, SAML/Shibboleth, Active Directory, AWS IAM & KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust
 
-**Infrastructure as Code & Delivery**: Terraform at scale (a la carte-as-code module design), GitOps (Argo CD, Flux CD), GitHub Actions, GitLab Pipelines, Jenkins, Git & Pull-Request Workflows
+**IaC & Delivery**: Terraform (composable module design), GitOps (Flux CD), GitHub Actions, GitLab Pipelines, Jenkins
 
-**Software & Automation**: Go (Golang), Python (Boto3, Pandas), Bash, PowerShell, SQL, API-Driven Automation, Agentic Development (Claude Code, Codex)
+**Networking**: IPv6, certificate-authenticated IPsec (IKEv2, transport mode, NAT-T), BGP, VPC/VNet (peering, VPN, Transit Gateway), DNS
 
-**Identity & Security**: HashiCorp Vault (PKI), SAML/Shibboleth SSO, Kerberos v5, OpenLDAP, Active Directory, Microsoft Entra ID, AWS IAM, AWS KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust, Least-Privilege Design
-
-**Networking**: IPv6, cert-authenticated IPsec mesh (IKEv2, transport, NAT-T), BGP, VPC/VNet (multi-CIDR, Transit Gateway, peering, VPN), DNS (delegation, SRV, split-horizon), Zero Trust Domain Isolation
-
-**Databases & Messaging**: Amazon RDS, PostgreSQL, SQL Server, Redis, Memcached, MongoDB, DynamoDB, Cassandra, Kafka, High-Throughput Data Pipelines
-
-**Observability**: Splunk, Prometheus, Grafana, Fluentd, Elasticsearch, Centralized Log Aggregation
+**Software & Data**: Go, Python (Boto3, Pandas), Bash, PowerShell, SQL; PostgreSQL, RDS, Redis, Kafka; Prometheus, Grafana, Fluentd, Elasticsearch, Splunk; Claude Code
 
 ## 📁 Resume
 
