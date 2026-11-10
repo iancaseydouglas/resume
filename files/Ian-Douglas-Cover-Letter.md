@@ -1,26 +1,19 @@
-﻿Greetings, ​
+**Ian Douglas**
 
-I'm a seasoned Platform Engineer and Infrastructure Architect interested in leveraging my skills building automated high-concurrency architecture and my 12+ years of experience in backend engineering and platform delivery to serve your mission. I bring deep experience:
+Colorado · Remote · Open to Bay Area relocation | 303-335-9358 | [iancaseydouglas@gmail.com](mailto:iancaseydouglas@gmail.com) | [github.com/iancaseydouglas/resume](https://github.com/iancaseydouglas/resume)
 
-\* Kubernetes & Orchestration: I’ve operated self-hosted Kubernetes at Stanford, Pearson, and  
-Invitae, and written infrastructure code in support of continuous delivery, automated gitops-style  
-operations, and platform as a product.​
+Dear Hiring Team,
 
-\* Backend Tooling (Go & Python): I build Go and Python tools to streamline GitOps workflows  
-and improve developer velocity. I deeply enjoy writing code and have been immersed in Python  
-since 2012.​
+I'm a platform and security engineer with 15+ years of building secure, code-driven infrastructure on Kubernetes, AWS, Azure, and GCP. I design the architecture, write the code, and run what I build in production.
 
-\* High-Concurrency Performance: While supporting the Marvel Heroes MMORPG, I wrote  
-cluster operations and data pipeline tools for a platform with 40k+ Daily Active Users and weekly releases. 
+**Platforms.** At Pearson I operated and extended Bitesize, a self-managed Kubernetes platform on AWS used by about 400 development teams. I wrote 30+ Terraform modules for it and shipped daily platform releases. At ZagTech I engineered a Kubernetes platform on Azure (AKS); the firm's largest client adopted it immediately in a $250K engagement.
 
-For detailed examples of these skills and experiences, please see my portfolio of work on [github.com/iancaseydouglas/resume](https://github.com/iancaseydouglas/resume)
+**Identity and security.** At Stanford I modernized OpenLDAP on Kubernetes, and it ran as the directory for the entire university. I also designed and deployed Active Directory over IPv6 with certificate-authenticated IPsec. Today I co-run a consultancy that builds Terraform-based Zero Trust controls modeled on NIST SP 800-207.
 
-I'd welcome the chance to discuss how my background might be useful to your mission and how  
-I can contribute to the team.
+**Automation.** At The Motley Fool I used Claude Code to build Python tooling that migrated about 200 repositories from Jenkins to GitHub Actions.
 
-Sincerely,  
+I'd welcome a conversation about how I can help your team. My resume and work samples are at [github.com/iancaseydouglas/resume](https://github.com/iancaseydouglas/resume).
+
+Sincerely,
+
 Ian Douglas
-
-303-335-9358  
-iancaseydouglas@gmail.com  
-github.com/iancaseydouglas/resume  
