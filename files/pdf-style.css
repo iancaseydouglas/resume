@@ -1,6 +1,57 @@
+/* Resume stylesheet: print (PDF) + screen */
+
+@page { size: Letter; }
+
+html, body { margin: 0; padding: 0; background: #fff; }
+
 body {
-    font-family: "Helvetica", "Roboto", "Calibri", "Arial", sans-serif;
+  font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+  font-size: 11.0pt;
+  line-height: 1.32;
+  color: #000;
 }
-a {
-    color: #004a99;
+
+/* Remove rules/borders that Markdown themes (e.g. GitHub style) add under headings */
+h1, h2, h3 { border-bottom: none !important; padding-bottom: 0 !important; }
+hr { display: none; }
+
+/* Header block: name, title line, contact line */
+h1 { font-size: 27.5pt; font-weight: 700; line-height: 1.15; margin: 0 0 9pt 0; }
+h1 + p { font-size: 12.1pt; font-weight: 700; margin: 0 0 6pt 0; }
+h1 + p + p { margin: 0 0 10pt 0; }
+
+/* Section headings */
+h2 {
+  font-size: 12.1pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin: 9.9pt 0 4.4pt 0;
+}
+
+/* Job headers (company line + italic role/dates line) */
+h3 { font-size: 11.2pt; font-weight: 700; margin: 6.6pt 0 0 0; }
+h3 + p { font-style: italic; margin: 0 0 2.2pt 0; }
+
+/* Keep a job's header and dates with its first bullets across page breaks */
+h3, h3 + p { break-after: avoid; page-break-after: avoid; }
+
+p  { margin: 0 0 3.8pt 0; }
+ul { margin: 2.2pt 0 0 0; padding-left: 15.4pt; }
+li { margin: 0 0 1.3pt 0; }
+
+a { color: #000; text-decoration: underline; }
+
+/* Screen view (e.g. the HTML version in a browser) */
+@media screen {
+  body {
+    max-width: 8.5in;
+    margin: 0.6in auto;
+    padding: 0 0.6in;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body { padding: 0 16px; margin: 16px 0; font-size: 10pt; }
 }
