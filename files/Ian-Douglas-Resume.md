@@ -32,7 +32,7 @@ Platform and security engineer with 15+ years building secure, code-driven infra
 
 *Co-Founder, DevSecOps Engineer & Security Architect (Part-time) | 01/2025 – Present*
 
-- **Zero Trust Architecture:** Architected and Developed Terraform-based "Zero Trust Capability Packages" modeled on NIST SP 800-207, including Security-as-Code modules to deliver DoD Zero Trust compliance in progressive phases
+- **Zero Trust Architecture:** Architected and Developed Terraform-based "Zero Trust Capability Packages" to deliver DoD Zero Trust and NIST SP 800-207 compliance in progressive phases.
 
 ### FlowDelta Trading | Boulder, CO (Remote)
 
@@ -52,7 +52,7 @@ Platform and security engineer with 15+ years building secure, code-driven infra
 
 *Senior Platform Engineer | 07/2023 – 04/2024*
 
-- **Research Compute Platform:** Owned operations and feature development for a genomics research platform on self-managed Kubernetes and EKS (dozens of production clusters, five environments) on a 5 person team; zero-downtime upgrades and stateful migrations, automated fleet-wide Flux bootstrap (Terraform, Go, Python).
+- **Research Compute Platform:** Owned operations and feature development for a genomics research platform on self-managed Kubernetes and EKS (dozens of production clusters, five environments) on a 5 person team.
 - **Cluster Hardening:** Built a Python tool to audit every PodSecurityPolicy across clusters against the Pod Security Standards, enabling the move to Pod Security Admission ([Cluster Security Audit](https://github.com/iancaseydouglas/cluster-security-audit)).
 - **Secrets Management Architecture:** Designed least-privilege secrets management using SOPS, AWS KMS, Shamir secret sharing.
 
@@ -74,11 +74,23 @@ Platform and security engineer with 15+ years building secure, code-driven infra
 - **Cloud Migration:** Delivered IaC and GKE-backed CI/CD that moved core services, including Puppet, to Google cloud and AWS.
 - **Secrets Infrastructure:** Ran multi-tenant HashiCorp Vault as one of a three-person team: PKI automation, multi-tenant secrets store, authentication proxies.
 
-### Earlier Experience
+### *Gazillion Entertainment (Marvel Heroes) | Foster City, CA*
 
-- **Gazillion Entertainment (Marvel Heroes)**, DevOps Engineer: database and cluster-operations automation for an MMO with 40k+ daily active users and twice-weekly deployments.
-- **Two Sigma Investments**, Systems Engineer: bare-metal provisioning for research and trading servers; zero-touch lifecycle for 1,000+ secure workstations.
-- **Columbia University**, Systems Engineer: databases, ESX, storage, and VM infrastructure for 22 libraries.
+*DevOps Engineer | 06/2014 – 12/2015*
+
+- **Cluster Operations:** Built database and cluster automations for an MMO with 40k+ DAU and weekly releases.
+
+### *Two Sigma Investments | New York, NY*
+
+*Systems Engineer | 05/2012 – 06/2014*
+
+- **Lifecycle Automation:** Deployed and configured bare-metal servers and 1000+ secure workstations.
+
+### *Columbia University | New York, NY*
+
+*Systems Engineer | 06/2010 – 05/2012*
+
+- **Infrastructure Operations:** Ran databases, ESX, storage, and VM infra for 22 libraries.
 
 ## Education
 
