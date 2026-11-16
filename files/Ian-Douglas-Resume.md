@@ -26,7 +26,7 @@ Platform and security engineer with 15+ years building secure, code-driven infra
 
 *Senior Platform Engineer (Contract) | 04/2026 – Present*
 
-- **CI/CD Migration:** Built reusable Python tooling, developed with Claude Code agentic workflows, that migrated ~200 repositories from Jenkins to GitHub Actions, replacing a manual repo-by-repo process, and moved secrets from AWS Secrets Manager to dotenvx to decouple them from AWS.
+- **CI/CD Migration:** Built reusable Python tooling, developed with Claude Code agentic workflows, that migrated 200+ repositories from Jenkins to GitHub Actions, replacing a manual repo-by-repo process, and moved secrets from AWS Secrets Manager to dotenvx to decouple them from AWS.
 
 ### Kings Mountain Security | Palo Alto, CA (Remote)
 
@@ -60,7 +60,7 @@ Platform and security engineer with 15+ years building secure, code-driven infra
 
 *Senior Cloud Platforms Engineer | 09/2019 – 08/2021*
 
-- **Kubernetes Platform:** Operated and evolved Pearson's self-managed Kubernetes platform on AWS (own control plane, etcd, Vault PKI) for ~400 dev teams, with daily platform releases; wrote 30+ Terraform modules. The platform was load-tested to 8.5M concurrent users at 150–250 ms ([case study](https://github.com/iancaseydouglas/resume/blob/main/files/bitesize/transforming-the-worlds-largest-education-company-with-kubernetes.pdf)).
+- **Kubernetes Platform:** Operated and evolved Pearson's self-managed Kubernetes platform on AWS (own control plane, etcd, Vault PKI) for 400+ dev teams, with daily platform releases; wrote 30+ Terraform modules. The platform was load-tested to 8.5M concurrent users at 150–250 ms ([case study](https://github.com/iancaseydouglas/resume/blob/main/files/bitesize/transforming-the-worlds-largest-education-company-with-kubernetes.pdf)).
 - **Platform Release Pipeline:** Maintained and extended a 121-job GitHub Actions pipeline promoting 14 versioned components (full-stack Kubernetes control plane on EC2) through eight clusters to two production regions, gated by tests, automated ServiceNow change requests, and human in the loop)
 - **Centralized Logging:** Built a new log aggregation service as one of two engineers (Fluentd, Python, AWS Lambda, feeding Elasticsearch and Splunk).
 - **Reusable Platform & Operators:** Generalized Bitesize's code modules into a white-box platform offering, as part of a small team; co-developed Go-based operators and CRDs that provisioned most AWS services.
