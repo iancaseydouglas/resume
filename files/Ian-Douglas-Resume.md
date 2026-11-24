@@ -26,7 +26,8 @@ Platform and security engineer with 15+ years building secure, code-driven infra
 
 *Senior Platform Engineer (Contract) | 04/2026 – Present*
 
-- **CI/CD Migration:** Built reusable Python tooling, developed with Claude Code agentic workflows, that migrated 200+ repositories from Jenkins to GitHub Actions, replacing a manual repo-by-repo process, and moved secrets from AWS Secrets Manager to dotenvx to decouple them from AWS.
+- **Gateway API:** Wrote a Helm chart to migrate 100+ routes in 5 environments from Ingress to Gateway API, including routes for blue/green deployments.
+- **CI/CD Migration:** Built Python tools with agentic AI to migrate 200+ repos from Jenkins to GitHub Actions; moved secrets from AWS Secrets Manager to dotenvx.
 
 ### Kings Mountain Security | Palo Alto, CA (Remote)
 
