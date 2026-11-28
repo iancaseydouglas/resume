@@ -12,9 +12,9 @@ Platform and security engineer with 15+ years building secure, code-driven infra
 
 **Platforms & Cloud**: Kubernetes (EKS, AKS, GKE, self-managed), Docker, Custom Operators; AWS (Organizations, EC2, VPC, IAM, KMS, Secrets Manager, Lambda); Azure (AKS, VNet, Entra ID); GCP (GKE)
 
-**Identity & Security**: HashiCorp Vault (PKI), OpenLDAP, Kerberos v5, SAML, Active Directory, Cloud IAM & KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust
+**Identity & Security**: HashiCorp Vault (PKI), OpenLDAP, Kerberos, SAML, OIDC, Active Directory, Cloud IAM & KMS, SOPS, Policy-as-Code (OPA), NIST SP 800-207 Zero Trust
 
-**IaC & Delivery**: Terraform at scale, GitOps (Flux CD), GitHub Actions, GitLab Pipelines, Jenkins
+**IaC & Delivery**: Terraform at scale, Ansible, Puppet, GitOps (Flux CD), GitHub Actions, GitLab Pipelines, Jenkins
 
 **Networking**: IPv6, certificate-based IPsec, BGP, VPC/VNet (Mesh, peering, VPN, Transit Gateway), DNS
 
